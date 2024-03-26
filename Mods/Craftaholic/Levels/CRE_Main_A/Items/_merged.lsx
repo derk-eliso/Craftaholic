@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+                <!-- Rosymorn Monastery Camp -->
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="CRE_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="2f1123b2-7553-40ce-af7a-cf003b5eb257" />
+                    <attribute id="Name" type="LSString" value="CRE_RSY_MON_CAMP_WB1" />
+                    <attribute id="TemplateName" type="FixedString" value="db061c4b-be47-4e09-b038-2f9de1a1bc96" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="CRE_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="-395.416 24.639 -1035.5" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0.9396926 0 0.3420201" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="CRE_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="d39b1e81-3e95-45c7-a55c-c5d4be28ac7f" />
+                    <attribute id="Name" type="LSString" value="CRE_RSY_MON_CAMP_WB2" />
+                    <attribute id="TemplateName" type="FixedString" value="cb7ee371-b8ed-4eba-8c25-206147827e68" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="CRE_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="-399.792 24.464 -1036.19" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0.9063078 0 -0.4226183" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <!--##################################-->
+                <!-- Creche Y'llek Camp -->
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="CRE_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="83dd789c-0567-42ab-a155-40e77065a87f" />
+                    <attribute id="Name" type="LSString" value="CRE_YEL_CAMP_WB1" />
+                    <attribute id="TemplateName" type="FixedString" value="db061c4b-be47-4e09-b038-2f9de1a1bc96" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="CRE_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="576.75 18.952 -892.25" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0.5 0 0.8660254" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="CRE_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="4cd61835-ff97-4e66-952b-c24f4622b7b6" />
+                    <attribute id="Name" type="LSString" value="CRE_YEL_CAMP_WB2" />
+                    <attribute id="TemplateName" type="FixedString" value="cb7ee371-b8ed-4eba-8c25-206147827e68" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="CRE_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="572.306 19.014 -892.96" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0.5735764 0 -0.819152" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <!--##################################-->
+            </children>
+        </node>
+    </region>
+</save>

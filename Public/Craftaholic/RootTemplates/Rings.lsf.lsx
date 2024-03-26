@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+	<region id="Templates">
+		<node id="Templates">
+			<children> 
+                <!--####################################   Templates   ####################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd3b7a4b4bb07436794836b54dd78eef5579d" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h0eabdaa4e469434f8477993966c8490cdg9e" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_QUEST_WYR_GemlessRing" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="45463e72-2342-4608-9a93-ea5e9122c624" />
+                    <attribute id="Name" type="LSString" value="CFT_Ring_Empty_Uncommon" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="ecf4a8a4-7859-4a82-8c08-0c9526f29500" />
+                    <attribute id="Stats" type="FixedString" value="CFT_Ring_Empty_Uncommon" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="99c46fc4-732f-494d-995f-cb61545bfac8" />
+                    <attribute id="Wadable" type="bool" value="False" />
+                    <attribute id="WalkOn" type="bool" value="False" />
+                    <attribute id="WalkThrough" type="bool" value="True" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+                </node>
+                <!--####################################   Templates   ####################################-->
+                <!--###################################   Components   ###################################-->
+                <!--#####################################   Common   #####################################-->
+                <!--####################################   Uncommon   ####################################-->
+                <!--######################################   Rare   ######################################-->
+                <!--####################################   Very Rare   ####################################-->
+                <!--####################################   Legendary   ####################################-->
+                <!--#######################################################################################-->
+			</children>
+		</node>
+	</region>
+</save>

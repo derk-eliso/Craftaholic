@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="303" lslib_meta="v1,bswap_guids" />
+	<region id="Tags">
+		<node id="Tags">
+            <attribute id="Description" type="LSString" value="Tag for components added by Craftaholic" />
+            <attribute id="DisplayName" type="TranslatedString" handle="h2f52055ef1d74415996ea907653bc98bd7ee" version="0" />
+            <attribute id="DisplayDescription" type="TranslatedString" handle="h11ea11347514403b9e8e7c1ccec4e493bb13" version="0" />
+            <attribute id="Icon" type="FixedString" value="" />
+            <attribute id="Name" type="FixedString" value="CFT_COMPONENT" />
+            <attribute id="UUID" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code" />
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+	</region>
+</save>

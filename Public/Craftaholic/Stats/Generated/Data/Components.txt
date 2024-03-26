@@ -1,0 +1,37 @@
+//-- Alchemy --//
+new entry "CFT_ALCH_Empty_Potion_Bottle"
+type "Object"
+using "OBJ_Bottle"
+data "RootTemplate" "27df1535-9f58-4e24-b51b-ceef2cd1d8d8"
+
+new entry "CFT_ALCH_Elemental_Earth"
+type "Object"
+using "BASE_ALCH_Extract_Earth"
+data "RootTemplate" "9a28004b-7369-4124-b3d8-de2552a5e4f3"
+
+new entry "CFT_ALCH_Elemental_Air"
+type "Object"
+using "BASE_ALCH_Extract_Air"
+data "RootTemplate" "6b36ae51-b824-4fa7-ace0-9562cc581394"
+
+new entry "CFT_ALCH_Elemental_Fey"
+type "Object"
+using "BASE_ALCH_Extract_Fey"
+data "RootTemplate" "329f1228-81b8-4a74-8328-50d94ed62360"
+
+new entry "CFT_ALCH_Elemental_Fire"
+type "Object"
+using "BASE_ALCH_Extract_Fire"
+data "RootTemplate" "72a7d4dc-1aae-4531-9d8c-b6dbeb6d3f80"
+
+new entry "CFT_ALCH_Elemental_Shadow"
+type "Object"
+using "BASE_ALCH_Extract_Shadow"
+data "RootTemplate" "ec284501-df29-4553-93ab-8b7a93421fd9"
+
+new entry "CFT_ALCH_Elemental_Water"
+type "Object"
+using "BASE_ALCH_Extract_Water"
+data "RootTemplate" "434c2bea-1e0b-4e69-b0cd-45442c353fe5"
+
+//----//

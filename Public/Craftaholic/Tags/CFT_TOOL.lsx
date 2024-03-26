@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="303" lslib_meta="v1,bswap_guids" />
+	<region id="Tags">
+		<node id="Tags">
+            <attribute id="Description" type="LSString" value="Tag for tools added by Craftaholic" />
+            <attribute id="DisplayName" type="TranslatedString" handle="h55335c1a31fe4a77bfd93c14549c77082gb1" version="0" />
+            <attribute id="DisplayDescription" type="TranslatedString" handle="h0745c4c4a9d1424cb36e75902861f42f77ad" version="0" />
+            <attribute id="Icon" type="FixedString" value="" />
+            <attribute id="Name" type="FixedString" value="CFT_TOOL" />
+            <attribute id="UUID" type="guid" value="824a98ce-c0c0-4c5e-a178-971bd2e01e1a" />
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code" />
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+	</region>
+</save>

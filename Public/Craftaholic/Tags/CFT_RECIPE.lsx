@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="303" lslib_meta="v1,bswap_guids" />
+	<region id="Tags">
+		<node id="Tags">
+            <attribute id="Description" type="LSString" value="Tag for recipes added by Craftaholic" />
+            <attribute id="DisplayName" type="TranslatedString" handle="hff2bd86b48de4606a08b46fa73a9c1e0f604" version="0" />
+            <attribute id="DisplayDescription" type="TranslatedString" handle="h076b4996a6c04b2fb7818ee77ce7a4f5edab" version="0" />
+            <attribute id="Icon" type="FixedString" value="" />
+            <attribute id="Name" type="FixedString" value="CFT_RECIPE" />
+            <attribute id="UUID" type="guid" value="e35f2d09-09fc-42ab-a5a8-ba11e0bf40a1" />
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code" />
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+	</region>
+</save>

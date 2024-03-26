@@ -1,0 +1,243 @@
+//-- Rings Common ---------------------------------//
+new entry "ARM_Ring_Silver"
+type "Armor"
+using "ARM_Ring_Silver"
+data "ComboCategory" "CFT_Ring_Common_Silver"
+
+new entry "ARM_Ring_Gold"
+type "Armor"
+using "ARM_Ring_Gold"
+data "ComboCategory" "CFT_Ring_Common_Gold"
+
+new entry "ARM_Ring_Copper"
+type "Armor"
+using "ARM_Ring_Copper"
+data "ComboCategory" "CFT_Ring_Common_Copper"
+
+new entry "DEN_Thiefling_Ring1"
+type "Armor"
+using "DEN_Thiefling_Ring1"
+data "ComboCategory" "CFT_Ring_Common_Copper"
+
+new entry "DEN_Thiefling_Ring2"
+type "Armor"
+using "DEN_Thiefling_Ring2"
+data "ComboCategory" "CFT_Ring_Common_Copper"
+
+new entry "DEN_Thiefling_Ring3"
+type "Armor"
+using "DEN_Thiefling_Ring3"
+data "ComboCategory" "CFT_Ring_Common_Copper"
+
+new entry "DEN_Thiefling_Ring4"
+type "Armor"
+using "DEN_Thiefling_Ring4"
+data "ComboCategory" "CFT_Ring_Common_Copper"
+
+new entry "DEN_Thiefling_Ring5"
+type "Armor"
+using "DEN_Thiefling_Ring5"
+data "ComboCategory" "CFT_Ring_Common_Copper"
+
+//--------------------------------------------------//
+
+//-- Rings Uncommon --------------------------------//
+new entry "MAG_Shove_ACboost_Ring"
+type "Armor"
+using "MAG_Shove_ACboost_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Radiant_DamageBonusOnIlluminatedTarget_Ring"
+type "Armor"
+using "MAG_Radiant_DamageBonusOnIlluminatedTarget_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Acid_AcidDamageOnWeaponAttack_Ring"
+type "Armor"
+using "MAG_Acid_AcidDamageOnWeaponAttack_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "TWN_Tollhouse_TradersRing"
+type "Armor"
+using "TWN_Tollhouse_TradersRing"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "UNI_GLO_Orin_TeleportRing"
+type "Armor"
+using "UNI_GLO_Orin_TeleportRing"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Frost_GenerateSurfaceOnColdDamage_Ring"
+type "Armor"
+using "MAG_Frost_GenerateSurfaceOnColdDamage_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_ElementalGish_ElementalInfusion_Ring"
+type "Armor"
+using "MAG_ElementalGish_ElementalInfusion_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Gish_PsychicDamageBonusWhileConcentrating_Ring"
+type "Armor"
+using "MAG_Gish_PsychicDamageBonusWhileConcentrating_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Radiant_DamageBonusOnIlluminatedTarget_Ring"
+type "Armor"
+using "MAG_Radiant_DamageBonusOnIlluminatedTarget_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Radiant_RadiatingOrb_Ring"
+type "Armor"
+using "MAG_Radiant_RadiatingOrb_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Fire_SelfImmolation_Ring"
+type "Armor"
+using "MAG_Fire_SelfImmolation_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Thunder_InflictDazeOnThunderDamage_Ring"
+type "Armor"
+using "MAG_Thunder_InflictDazeOnThunderDamage_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Poison_PoisonLethality_Ring"
+type "Armor"
+using "MAG_Poison_PoisonLethality_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Acid_AcidDamageOnWeaponAttack_Ring"
+type "Armor"
+using "MAG_Acid_AcidDamageOnWeaponAttack_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Shadow_BlindImmunity_Ring"
+type "Armor"
+using "MAG_Shadow_BlindImmunity_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Shadow_ShadowBlade_Ring"
+type "Armor"
+using "MAG_Shadow_ShadowBlade_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Psychic_TempHP_Ring"
+type "Armor"
+using "MAG_Psychic_TempHP_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Psychic_MentalOverload_Ring"
+type "Armor"
+using "MAG_Psychic_MentalOverload_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Harpers_RingOfProjection"
+type "Armor"
+using "MAG_Harpers_RingOfProjection"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "MAG_Harpers_RingOfAttraction"
+type "Armor"
+using "MAG_Harpers_RingOfAttraction"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "SCL_MastiffPoachers_Ring"
+type "Armor"
+using "SCL_MastiffPoachers_Ring"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "QUEST_WYR_RestoredMagicRing"
+type "Armor"
+using "QUEST_WYR_RestoredMagicRing"
+data "ComboCategory" "CFT_Ring_Uncommon"
+
+new entry "SHA_SandthiefsRing"
+type "Armor"
+using "SHA_SandthiefsRing"
+data "ComboCategory" "CFT_Ring_Uncommon"
+//--------------------------------------------------//
+
+//-- Rings Rare ------------------------------------//
+new entry "TWN_BondedByLove_HusbandsRing"
+type "Armor"
+using "TWN_BondedByLove_HusbandsRing"
+data "ComboCategory" "CFT_Ring_Rare"
+
+new entry "TWN_BondedByLove_WifesRing"
+type "Armor"
+using "TWN_BondedByLove_WifesRing"
+data "ComboCategory" "CFT_Ring_Rare"
+
+new entry "MAG_ChargedLightning_EnsnaringShock_Ring"
+type "Armor"
+using "MAG_ChargedLightning_EnsnaringShock_Ring"
+data "ComboCategory" "CFT_Ring_Rare"
+
+new entry "MAG_Gish_ArcaneSynergy_Ring"
+type "Armor"
+using "MAG_Gish_ArcaneSynergy_Ring"
+data "ComboCategory" "CFT_Ring_Rare"
+
+new entry "MAG_FlamingFist_ScoutRing"
+type "Armor"
+using "MAG_FlamingFist_ScoutRing"
+data "ComboCategory" "CFT_Ring_Rare"
+
+new entry "MAG_Illithid_CharmPerson_Ring"
+type "Armor"
+using "MAG_Illithid_CharmPerson_Ring"
+data "ComboCategory" "CFT_Ring_Rare"
+
+new entry "MAG_Harpers_RingOfTwilight"
+type "Armor"
+using "MAG_Harpers_RingOfTwilight"
+data "ComboCategory" "CFT_Ring_Rare"
+
+new entry "MAG_Myrkulites_RingofMyrkul_Ring"
+type "Armor"
+using "MAG_Myrkulites_RingofMyrkul_Ring"
+data "ComboCategory" "CFT_Ring_Rare"
+
+new entry "MAG_PHB_Ring_Of_Protection"
+type "Armor"
+using "MAG_PHB_Ring_Of_Protection"
+data "ComboCategory" "CFT_Ring_Rare"
+
+new entry "MAG_WYRM_OfTruthTelling_Ring"
+type "Armor"
+using "MAG_WYRM_OfTruthTelling_Ring"
+data "ComboCategory" "CFT_Ring_Rare"
+
+new entry "LOW_KerriRing_Ring"
+type "Armor"
+using "LOW_KerriRing_Ring"
+data "ComboCategory" "CFT_Ring_Rare"
+
+new entry "LOW_JannathRing_Ring"
+type "Armor"
+using "LOW_JannathRing_Ring"
+data "ComboCategory" "CFT_Ring_Rare"
+//--------------------------------------------------//
+
+//-- Rings Very Rare -------------------------------//
+new entry "MAG_Critical_CriticalExecution_Ring"
+type "Armor"
+using "MAG_Critical_CriticalExecution_Ring"
+data "ComboCategory" "CFT_Ring_VeryRare"
+
+new entry "MAG_PHB_OfEvasion_Ring"
+type "Armor"
+using "MAG_PHB_OfEvasion_Ring"
+data "ComboCategory" "CFT_Ring_VeryRare"
+
+new entry "MAG_OfFeywildSparks_Ring"
+type "Armor"
+using "MAG_OfFeywildSparks_Ring"
+data "ComboCategory" "CFT_Ring_VeryRare"
+
+new entry "MAG_OfUndeadServant_Ring"
+type "Armor"
+using "MAG_OfUndeadServant_Ring"
+data "ComboCategory" "CFT_Ring_VeryRare"
+//--------------------------------------------------//

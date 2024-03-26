@@ -1,0 +1,701 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+	<region id="Templates">
+		<node id="Templates">
+			<children> 
+                <!--####################################   Replacing   ####################################-->
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" handle="hcb6f2310gd07eg4660ga6e6gd3b0c8b4fd8e" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hdf85b2f5g4feeg408eg9e9cg01f240982d93" version="1" />
+                    <attribute id="DropSound" type="FixedString" value="a8aa9dc3-c74c-be38-a3de-d4507cc6023e" />
+                    <attribute id="Icon" type="FixedString" value="Item_AlchemyIngredient_Gem_Emerald" />
+                    <attribute id="ImpactSound" type="FixedString" value="5290a2da-7af9-dc1e-c32f-64df15f74a4c" />
+                    <attribute id="InventoryMoveSound" type="FixedString" value="a8aa9dc3-c74c-be38-a3de-d4507cc6023e" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+                    <attribute id="Name" type="LSString" value="BASE_LOOT_Gem" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="a2ad111b-831c-4d7d-9aa5-84e5cebbaf21" />
+                    <attribute id="PickupSound" type="FixedString" value="c9d54f46-4779-bfd5-de26-1df05216ea3a" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209022" />
+                    <children>
+                        <node id="Bounds">
+                            <children>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.5 1 0.5" />
+                                    <attribute id="Min" type="fvec3" value="-0.5 0 -0.5" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="1" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.5 1 0.5" />
+                                    <attribute id="Min" type="fvec3" value="-0.5 0 -0.5" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="2" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.25 1 0.25" />
+                                    <attribute id="Min" type="fvec3" value="-0.25 0 -0.25" />
+                                    <attribute id="Radius" type="float" value="0.2165065" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="0" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="cd0c8720-8494-4b0f-8f45-26629cca89e5" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <!--####################################   Templates   ####################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7be22fca29174ad887a283865a65b48fd399" version="1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="a2ad111b-831c-4d7d-9aa5-84e5cebbaf21" />
+                    <attribute id="Name" type="LSString" value="CFT_GEM_New_Base" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+                    <attribute id="Tooltip" type="uint8" value="2" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209010" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="b148cfca-53d8-4b73-b052-de08394a235e" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <!--###################################   PreciousGem   ###################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4fd76eaa9acd4afaabd7cac8176740dd63f5" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="heea16c9892124a7ca126ba7c109664ca128e" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_AlchemyIngredient_Gem_Emerald" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="0d570030-e750-43cb-956a-48d2b739c787" />
+                    <attribute id="Name" type="LSString" value="CFT_GEM_Emerald" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="fedf2712-d01d-f714-2783-acb124bce769" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_GEM_Emerald" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="9fbc673b-f7a1-d668-6377-b6ff69047226" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209035" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
+                    <children>
+                        <node id="Bounds">
+                            <children>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.079312935 0.091542795 0.13182239" />
+                                    <attribute id="Min" type="fvec3" value="-0.08037153 -0.013645694 -0.13273664" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="1" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.079312935 0.091542795 0.13182239" />
+                                    <attribute id="Min" type="fvec3" value="-0.08037153 -0.013645694 -0.13273664" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="2" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.079312935 0.091542795 0.13182239" />
+                                    <attribute id="Min" type="fvec3" value="-0.08037153 -0.013645694 -0.13273664" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="0" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="GameMaster">
+                            <attribute id="GameMasterSpawnSection" type="int32" value="13" />
+                            <attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="hf8826699g6d8eg4e44g93ebg0d9e7ba65e14" version="1" />
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h37c6f7a9b20c4b708b53288c39c4006d11e1" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h296a27d98406450a808298616d3e1b739cf4" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_H" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="f3c8569d-1d79-4821-beaf-968c7b9d7113" />
+                    <attribute id="Name" type="LSString" value="CFT_GEM_Citrine" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="c904fbf4-3cfe-e2d8-1fe1-359f2408429b" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_GEM_Citrine" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="090d2fbb-4434-c190-e88b-3f01f8dc6cc3" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209035" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
+                    <children>
+                        <node id="Bounds">
+                            <children>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.030512303 0.16059719 0.039525222" />
+                                    <attribute id="Min" type="fvec3" value="-0.042098522 -0.007188633 -0.038115095" />
+                                    <attribute id="Radius" type="float" value="0.2165065" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="0" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.030512303 0.16059719 0.039525222" />
+                                    <attribute id="Min" type="fvec3" value="-0.042098522 -0.007188633 -0.038115095" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="1" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.030512303 0.16059719 0.039525222" />
+                                    <attribute id="Min" type="fvec3" value="-0.042098522 -0.007188633 -0.038115095" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="2" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="GameMaster">
+                            <attribute id="GameMasterSpawnSection" type="int32" value="13" />
+                            <attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h34b98e53g39ddg4df2ga1b1g4c82e685d835" version="1" />
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4bda3b0af9594dc2a602521ffcc7d119b1ge" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h777adc61918742d0abf8e2c9995c2d6b21ae" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_GEM_Sardonyx" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="5cbceafa-acb9-42ed-ac27-7e00b2ebf09b" />
+                    <attribute id="Name" type="LSString" value="CFT_GEM_Sardonyx" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="ed5de547-60c2-76b2-bf8e-331fcde0d45f" />
+                    <attribute id="Stats" type="FixedString" value="CFT_GEM_Sardonyx" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="67a1d6a9-1429-e595-d3a6-d8a29435eef4" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209035" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
+                    <children>
+                        <node id="Bounds">
+                            <children>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.080924526 0.08816058 0.112254225" />
+                                    <attribute id="Min" type="fvec3" value="-0.080924556 -0.0019052848 -0.11230255" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="1" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.080924526 0.08816058 0.112254225" />
+                                    <attribute id="Min" type="fvec3" value="-0.080924556 -0.0019052848 -0.11230255" />
+                                    <attribute id="Radius" type="float" value="0.2165065" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="0" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.080924526 0.08816058 0.112254225" />
+                                    <attribute id="Min" type="fvec3" value="-0.080924556 -0.0019052848 -0.11230255" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="2" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="GameMaster">
+                            <attribute id="GameMasterSpawnSection" type="int32" value="13" />
+                            <attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h34b98e53g39ddg4df2ga1b1g4c82e685d835" version="1" />
+                        </node>
+                    </children>
+                </node>
+                <!--##################################   PreciousGem_2   ##################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h71356346135b49dda79dc894eed1a651d6d7" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hf16d6228c0984b799e8ad7380351c2e4g08d" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_A" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="19990f0e-3147-47ef-9710-2acd30a56d22" />
+                    <attribute id="Name" type="LSString" value="CFT_GEM_Spodumene" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="199ac12d-b69e-ebd1-49da-f5682bf5a292" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_GEM_Spodumene" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="9f689e0c-fb86-f5fb-89e9-2573f0297521" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855913" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
+                    <children>
+                        <node id="Bounds">
+                            <children>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.07660931 0.12128906 0.117326975" />
+                                    <attribute id="Min" type="fvec3" value="-0.07660931 -0.005556643 -0.1188032" />
+                                    <attribute id="Radius" type="float" value="0.2165065" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="0" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.07660931 0.12128906 0.117326975" />
+                                    <attribute id="Min" type="fvec3" value="-0.07660931 -0.005556643 -0.1188032" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="1" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.07660931 0.12128906 0.117326975" />
+                                    <attribute id="Min" type="fvec3" value="-0.07660931 -0.005556643 -0.1188032" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="2" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="GameMaster">
+                            <attribute id="GameMasterSpawnSection" type="int32" value="13" />
+                            <attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h6bad41cag15cbg406bga5aegc47d24ccb448" version="1" />
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd3862cfdbc544f7283c12b23c692133fe1g4" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hf0c90b946d6a448786b45599aacce7dbff55" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_GEM_Chrysoberyl" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="adb16989-9036-4ee7-bdc0-cbd388d7ca48" />
+                    <attribute id="Name" type="LSString" value="CFT_GEM_Chrysoberyl" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="c6e8063e-67cf-fb3c-0d55-f800d5b72625" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_GEM_Chrysoberyl" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="6fe2c658-721d-a75d-7881-5a80f682f887" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855913" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
+                    <children>
+                        <node id="Bounds">
+                            <children>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.17002302 0.10473214 0.067268215" />
+                                    <attribute id="Min" type="fvec3" value="-0.15207976 -0.0037197992 -0.06726826" />
+                                    <attribute id="Radius" type="float" value="0.2165065" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="0" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.17002302 0.10473214 0.067268215" />
+                                    <attribute id="Min" type="fvec3" value="-0.15207976 -0.0037197992 -0.06726826" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="1" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.17002302 0.10473214 0.067268215" />
+                                    <attribute id="Min" type="fvec3" value="-0.15207976 -0.0037197992 -0.06726826" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="2" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="GameMaster">
+                            <attribute id="GameMasterSpawnSection" type="int32" value="13" />
+                            <attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h6bad41cag15cbg406bga5aegc47d24ccb448" version="1" />
+                        </node>
+                    </children>
+                </node>
+                <!--##################################   PreciousGem_3   ##################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="he398c24b7e154480a273b0d39add219a8d1c" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h3f4b7f8c8e8b4d3abeee7240e9088a984846" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_G" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="d8908979-01b8-4c8e-a3ad-f5b79e20a46f" />
+                    <attribute id="Name" type="LSString" value="CFT_GEM_Tremair" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="64e1fb89-7d94-58ab-97a9-e62f3ea0fc73" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_GEM_Tremair" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="3157a2ae-468d-6fe2-6b2a-5708991adb4b" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855913" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
+                    <children>
+                        <node id="Bounds">
+                            <children>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.06662847 0.1025652 0.100427225" />
+                                    <attribute id="Min" type="fvec3" value="-0.1387694 -0.0065311715 -0.19095878" />
+                                    <attribute id="Radius" type="float" value="0.2165065" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="0" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.06662847 0.1025652 0.100427225" />
+                                    <attribute id="Min" type="fvec3" value="-0.1387694 -0.0065311715 -0.19095878" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="1" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.06662847 0.1025652 0.100427225" />
+                                    <attribute id="Min" type="fvec3" value="-0.1387694 -0.0065311715 -0.19095878" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="2" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="GameMaster">
+                            <attribute id="GameMasterSpawnSection" type="int32" value="13" />
+                            <attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="hf2a179fag9b1dg4b68g8d2bg08bf1385cc32" version="1" />
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha51ae7fec707473fba3dd65bafc3a5c6fg35" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hec67b6302f4443e3897ca2738d29f1bf735f" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_I" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="5935ff0b-7697-4b58-9898-1bfacdd71544" />
+                    <attribute id="Name" type="LSString" value="CFT_GEM_Smoky_Quartz" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="7525b171-a0c5-b564-18b7-1aba9d0c6861" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_GEM_Smoky_Quartz" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="5cc90d5d-9320-641e-26cf-9a24afd68491" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855913" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
+                    <children>
+                        <node id="Bounds">
+                            <children>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.17705633 0.078178726 0.036226083" />
+                                    <attribute id="Min" type="fvec3" value="-0.17012827 0.0019952133 -0.036226083" />
+                                    <attribute id="Radius" type="float" value="0.2165065" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="0" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.17705633 0.078178726 0.036226083" />
+                                    <attribute id="Min" type="fvec3" value="-0.17012827 0.0019952133 -0.036226083" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="1" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.17705633 0.078178726 0.036226083" />
+                                    <attribute id="Min" type="fvec3" value="-0.17012827 0.0019952133 -0.036226083" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="2" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="GameMaster">
+                            <attribute id="GameMasterSpawnSection" type="int32" value="13" />
+                            <attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="hf2a179fag9b1dg4b68g8d2bg08bf1385cc32" version="1" />
+                        </node>
+                    </children>
+                </node>
+                <!--##################################   PreciousGem_4   ##################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6ab98df8c81d45e3a39e66ac4e0f49749d2g" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h074ddb852a4943fd9cb8497e1911058e4g22" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_C" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="993d1324-2235-4c61-8799-4b54f4930900" />
+                    <attribute id="Name" type="LSString" value="CFT_GEM_Spinel" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="80d8f7a2-5a16-723a-5b29-c178d72e1e23" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_GEM_Spinel" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="5e3bf39f-36e6-0231-b972-4b4d336a6330" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855913" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
+                    <children>
+                        <node id="Bounds">
+                            <children>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.07886319 0.21851437 0.0735699" />
+                                    <attribute id="Min" type="fvec3" value="-0.07948135 -0.021809146 -0.07442828" />
+                                    <attribute id="Radius" type="float" value="0.2165065" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="0" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.07886319 0.21851437 0.0735699" />
+                                    <attribute id="Min" type="fvec3" value="-0.07948135 -0.021809146 -0.07442828" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="1" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.07886319 0.21851437 0.0735699" />
+                                    <attribute id="Min" type="fvec3" value="-0.07948135 -0.021809146 -0.07442828" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="2" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="GameMaster">
+                            <attribute id="GameMasterSpawnSection" type="int32" value="13" />
+                            <attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h309a6d46g0be0g483bgae9egfd6e7d3dcc7f" version="1" />
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h081221cd5cd4462eaf2c13d6fd832d94194d" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hc6793a75cfa642feb02f510c81c7436fb635" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_J" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="5d510d04-3afe-4aff-95cd-e3b8f3f01466" />
+                    <attribute id="Name" type="LSString" value="CFT_GEM_Samarskite" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="c6e8063e-67cf-fb3c-0d55-f800d5b72625" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_GEM_Samarskite" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="6fe2c658-721d-a75d-7881-5a80f682f887" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855913" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
+                    <children>
+                        <node id="Bounds">
+                            <children>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.17002302 0.10473214 0.067268215" />
+                                    <attribute id="Min" type="fvec3" value="-0.15207976 -0.0037197992 -0.06726826" />
+                                    <attribute id="Radius" type="float" value="0.2165065" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="0" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.17002302 0.10473214 0.067268215" />
+                                    <attribute id="Min" type="fvec3" value="-0.15207976 -0.0037197992 -0.06726826" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="1" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.17002302 0.10473214 0.067268215" />
+                                    <attribute id="Min" type="fvec3" value="-0.15207976 -0.0037197992 -0.06726826" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="2" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="GameMaster">
+                            <attribute id="GameMasterSpawnSection" type="int32" value="13" />
+                            <attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h309a6d46g0be0g483bgae9egfd6e7d3dcc7f" version="1" />
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h24b08b3a805346b398676bd4f787b25e69e8" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hb7f3af9f14a845b7b20bc6101d1b096d2b84" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_GEM_Obsidian" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="deca1ecd-aa09-4d7d-b7b1-3231ee9e502f" />
+                    <attribute id="Name" type="LSString" value="CFT_GEM_Obsidian" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="a2c0b0d7-c259-b88c-0df3-6eed90d017ed" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_GEM_Obsidian" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="da0eafad-da1d-600c-c288-fcd9d978e895" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855913" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
+                    <children>
+                        <node id="Bounds">
+                            <children>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.08959663 0.11851035 0.12856974" />
+                                    <attribute id="Min" type="fvec3" value="-0.0895966 -0.0015005916 -0.12817918" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="1" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.08959663 0.11851035 0.12856974" />
+                                    <attribute id="Min" type="fvec3" value="-0.0895966 -0.0015005916 -0.12817918" />
+                                    <attribute id="Radius" type="float" value="0.2165065" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="0" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.08959663 0.11851035 0.12856974" />
+                                    <attribute id="Min" type="fvec3" value="-0.0895966 -0.0015005916 -0.12817918" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="2" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="GameMaster">
+                            <attribute id="GameMasterSpawnSection" type="int32" value="13" />
+                            <attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h309a6d46g0be0g483bgae9egfd6e7d3dcc7f" version="1" />
+                        </node>
+                    </children>
+                </node>
+                <!--##################################   PreciousGem_5   ##################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h72f9a9afffe741fcbb02d2c3337ee6f9bdc0" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h2e9cfa80c4024443b8b67dbdc3b682f0d0ef" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_K" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="f6800128-cdcf-450e-a14a-5f7948a09cb5" />
+                    <attribute id="Name" type="LSString" value="CFT_GEM_Lapis_Lazuli" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="1932ea04-507d-33d9-8b60-e5b5ce0feb64" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_GEM_Lapis_Lazuli" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="5aae616d-3ac0-cdda-2467-f72dfa1769e8" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855913" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
+                    <children>
+                        <node id="Bounds">
+                            <children>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.17002302 0.10473214 0.067268215" />
+                                    <attribute id="Min" type="fvec3" value="-0.15207976 -0.0037197992 -0.06726826" />
+                                    <attribute id="Radius" type="float" value="0.2165065" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="0" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.17002302 0.10473214 0.067268215" />
+                                    <attribute id="Min" type="fvec3" value="-0.15207976 -0.0037197992 -0.06726826" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="1" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.17002302 0.10473214 0.067268215" />
+                                    <attribute id="Min" type="fvec3" value="-0.15207976 -0.0037197992 -0.06726826" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="2" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="GameMaster">
+                            <attribute id="GameMasterSpawnSection" type="int32" value="13" />
+                            <attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h07fa0337g1401g4c71gafcag120f4f3d0af0" version="1" />
+                        </node>
+                    </children>
+                </node>
+                <!--##################################   PreciousGem_6   ##################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="he2e2b28d2f854545af04afbe11f6c0eab2g4" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h50011fb6ebf24c9d96ca42b7c75454cfab72" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_GEM_Beryllonite" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="84edc611-ed3a-4515-88bf-ccd40b57ee8a" />
+                    <attribute id="Name" type="LSString" value="CFT_GEM_Beryllonite" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="b3d7f804-15f1-ca83-0742-d119cb07dea0" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_GEM_Beryllonite" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="c0c66d37-8c2a-d208-2274-8fb1daa35d16" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115205255725657" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
+                    <children>
+                        <node id="Bounds">
+                            <children>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.064825274 0.12767917 0.06482521" />
+                                    <attribute id="Min" type="fvec3" value="-0.064825155 -0.0019712746 -0.06482521" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="1" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.064825274 0.12767917 0.06482521" />
+                                    <attribute id="Min" type="fvec3" value="-0.064825155 -0.0019712746 -0.06482521" />
+                                    <attribute id="Radius" type="float" value="0.2165065" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="0" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.064825274 0.12767917 0.06482521" />
+                                    <attribute id="Min" type="fvec3" value="-0.064825155 -0.0019712746 -0.06482521" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="2" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="GameMaster">
+                            <attribute id="GameMasterSpawnSection" type="int32" value="13" />
+                            <attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h34790995g2e68g4371g8ea3gab14cc6cdb10" version="1" />
+                        </node>
+                    </children>
+                </node>
+                <!--#######################################################################################-->
+			</children>
+		</node>
+	</region>
+</save>

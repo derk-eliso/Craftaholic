@@ -1,0 +1,17 @@
+//-- Templates -------------------------------------//
+new entry "CFT_Uncommon_Amulet"
+type "Armor"
+using "_Amulet_Magic"
+data "Slot" "Amulet"
+data "Weight" "0.05"
+data "ObjectCategory" "CFT_Group_Amulet_Uncommon"
+data "ComboCategory" "CFT_Amulet_Uncommon"
+//--------------------------------------------------//
+
+//-- Builders --------------------------------------//
+new entry "CFT_Amulet_Empty_Uncommon"
+type "Armor"
+using "CFT_Uncommon_Amulet"
+data "RootTemplate" ""
+data "Rarity" "Uncommon"
+//--------------------------------------------------//

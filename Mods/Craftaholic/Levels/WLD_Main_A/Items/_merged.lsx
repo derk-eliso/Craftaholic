@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+                <!-- Wilderness Main Campsite -->
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="47f37c11-098b-48ee-a908-61cab8a64d69" />
+					<attribute id="Name" type="LSString" value="WLD_MAIN_CAMP_WB1" />
+					<attribute id="TemplateName" type="FixedString" value="db061c4b-be47-4e09-b038-2f9de1a1bc96" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-603.5 1.32 -205" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.7071068 0 0.7071068" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+                <node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="aefb99cf-bc9a-4540-92cf-2d79be53bf3c" />
+					<attribute id="Name" type="LSString" value="WLD_MAIN_CAMP_WB2" />
+					<attribute id="TemplateName" type="FixedString" value="cb7ee371-b8ed-4eba-8c25-206147827e68" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-603.5 1.32 -207.4" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.7071068 0 0.7071068" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+                <!--##################################-->
+                <!-- Overgrown Chapel Campsite -->
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="f837b242-430f-433d-9acb-c91b79249442" />
+					<attribute id="Name" type="LSString" value="WLD_CHP_CAMP_WB1" />
+					<attribute id="TemplateName" type="FixedString" value="db061c4b-be47-4e09-b038-2f9de1a1bc96" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-846.187 0.001 -72.877" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+                <node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="4b433adb-942c-4c8a-8eec-60b32ee4a209" />
+					<attribute id="Name" type="LSString" value="WLD_CHP_CAMP_WB2" />
+					<attribute id="TemplateName" type="FixedString" value="cb7ee371-b8ed-4eba-8c25-206147827e68" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-850.135 0.001 -79.568" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.7071068 0 -0.7071068" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+                <!--###################################-->
+                <!-- Blighted Village Basement Camp -->
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="11feebfe-2724-43f9-95d5-aaa6eb0cc2c9" />
+                    <attribute id="Name" type="LSString" value="WLD_BLT_CAMP_WB1" />
+                    <attribute id="TemplateName" type="FixedString" value="db061c4b-be47-4e09-b038-2f9de1a1bc96" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="-1100.247 -0.396 -6.867" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0.7071068 0 0.7071068" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="56f3a459-960f-4eac-8005-6889489fb127" />
+                    <attribute id="Name" type="LSString" value="WLD_BLT_CAMP_WB2" />
+                    <attribute id="TemplateName" type="FixedString" value="cb7ee371-b8ed-4eba-8c25-206147827e68" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="-1102.276 -0.396 -5.502" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <!--##################################-->
+                <!-- Spider Cave Camp -->
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="97664e9b-a3b8-448b-b32d-594e2b8a15fb" />
+                    <attribute id="Name" type="LSString" value="WLD_SPD_CAVE_CAMP_WB1" />
+                    <attribute id="TemplateName" type="FixedString" value="db061c4b-be47-4e09-b038-2f9de1a1bc96" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="-865.438 0.283 -389.382" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0.5735764 0 -0.819152" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="798de14f-0791-49aa-a696-c04ce0063d44" />
+                    <attribute id="Name" type="LSString" value="WLD_SPD_CAVE_CAMP_WB2" />
+                    <attribute id="TemplateName" type="FixedString" value="cb7ee371-b8ed-4eba-8c25-206147827e68" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="-867.449 0.349 -393.31" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0.9396926 0 -0.3420201" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <!--##################################-->
+                <!-- Basement Camp -->
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="6b6936f8-51a6-4c5d-b637-3cbce4c97892" />
+                    <attribute id="Name" type="LSString" value="WLD_BSMT_CAMP_WB1" />
+                    <attribute id="TemplateName" type="FixedString" value="db061c4b-be47-4e09-b038-2f9de1a1bc96" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="-838.75 1.322 -247.581" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0.9063078 0 0.4226183" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="5d502207-669b-4424-bd24-668961052a51" />
+                    <attribute id="Name" type="LSString" value="WLD_BSMT_CAMP_WB2" />
+                    <attribute id="TemplateName" type="FixedString" value="cb7ee371-b8ed-4eba-8c25-206147827e68" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="-838.25 1.7 -240.85" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0.3583679 0 -0.9335804" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <!--##################################-->
+                <!-- Underdark Main Camp -->
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="e2751cee-bf63-4494-8445-43ace0499d1f" />
+                    <attribute id="Name" type="LSString" value="WLD_UND_CAMP_WB1" />
+                    <attribute id="TemplateName" type="FixedString" value="db061c4b-be47-4e09-b038-2f9de1a1bc96" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="-1085.802 -0.36 -233.96" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0.9063078 0 -0.4226183" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="d693af8e-bd7b-482e-8038-f3a694b49737" />
+                    <attribute id="Name" type="LSString" value="WLD_UND_CAMP_WB2" />
+                    <attribute id="TemplateName" type="FixedString" value="cb7ee371-b8ed-4eba-8c25-206147827e68" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="-1082.25 -0.46 -232.75" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0.9396926 0 0.3420201" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <!--##################################-->
+                <!-- Underdark Grymforge Camp -->
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="70ff83c1-2ee2-4b08-9b84-1c0876e63aff" />
+                    <attribute id="Name" type="LSString" value="WLD_UND_GRYM_CAMP_WB1" />
+                    <attribute id="TemplateName" type="FixedString" value="db061c4b-be47-4e09-b038-2f9de1a1bc96" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="-998.361 8.984 -389.404" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0.1736482 0 -0.9848078" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="c9958bf6-0830-4838-bc10-0eafbf48550d" />
+                    <attribute id="Name" type="LSString" value="WLD_UND_GRYM_CAMP_WB2" />
+                    <attribute id="TemplateName" type="FixedString" value="cb7ee371-b8ed-4eba-8c25-206147827e68" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="-995.777 8.944 -393.969" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0.9063078 0 0.4226183" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <!--##################################-->
+            </children>
+        </node>
+    </region>
+</save>

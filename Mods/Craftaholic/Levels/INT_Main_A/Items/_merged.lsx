@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+                <!-- Wyrm's Lookout Camp -->
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="INT_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="69f44849-8f4b-46c4-baf9-fdd06a45a64f" />
+                    <attribute id="Name" type="LSString" value="INT_WYRM_CAMP_WB1" />
+                    <attribute id="TemplateName" type="FixedString" value="db061c4b-be47-4e09-b038-2f9de1a1bc96" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="INT_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="364.489 15.28 -8.907" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0.3007058 0 -0.953717" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="Flag" type="int32" value="1" />
+                    <attribute id="LevelName" type="FixedString" value="INT_Main_A" />
+                    <attribute id="MapKey" type="FixedString" value="ada017d4-2a78-4052-993f-0ea38cdd4e21" />
+                    <attribute id="Name" type="LSString" value="INT_WYRM_CAMP_WB2" />
+                    <attribute id="TemplateName" type="FixedString" value="cb7ee371-b8ed-4eba-8c25-206147827e68" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+                    <children>
+                        <node id="LayerList">
+                            <children>
+                                <node id="Layers">
+                                    <children>
+                                        <node id="Object">
+                                            <attribute id="MapKey" type="FixedString" value="INT_Main_A" />
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Transform">
+                            <attribute id="Position" type="fvec3" value="368.25 15.51 -7.29" />
+                            <attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+                            <attribute id="Scale" type="float" value="1" />
+                        </node>
+                    </children>
+                </node>
+                <!--##################################-->
+            </children>
+        </node>
+    </region>
+</save>

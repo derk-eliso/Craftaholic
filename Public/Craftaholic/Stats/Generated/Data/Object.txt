@@ -1,8 +1,0 @@
-new entry "CFT_Test_Bench"
-type "Object"
-using "OBJ_GenericLootItem"
-data "Rarity" "Uncommon"
-data "RootTemplate" "db061c4b-be47-4e09-b038-2f9de1a1bc96"
-data "ValueOverride" "1"
-data "Weight" "2.0"
-

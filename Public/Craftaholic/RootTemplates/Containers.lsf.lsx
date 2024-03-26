@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+	<region id="Templates">
+		<node id="Templates">
+			<children> 
+                <!--###################################   Containers   ####################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h009ab187fa184809984141511135f4f98057" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hf74dd4d79a794e80a4044ce5ef831c664fb5" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Name" type="LSString" value="CFT_CONT_ScrollCase" />
+					<attribute id="Stats" type="FixedString" value="CFT_CONT_ScrollCase" /> 
+					<attribute id="Icon" type="FixedString" value="Icon_CFT_CONT_ScrollCase" />
+					<attribute id="MapKey" type="FixedString" value="57838375-4634-46f9-a3c1-915660e184e6" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3e6aac21-333b-4812-a554-376c2d157ba9" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="ContainerAutoAddOnPickup" type="bool" value="True" />
+					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('SCROLL')" />
+					<children>
+						<node id="InventoryList" />
+					</children>
+				</node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb5c0509d318748daae181daa2f6161e6b371" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hb396ea0793394faab10510f481616daee206" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Name" type="LSString" value="CFT_CONT_Quiver" />
+					<attribute id="Stats" type="FixedString" value="CFT_CONT_Quiver" /> 
+					<attribute id="Icon" type="FixedString" value="Icon_CFT_CONT_Quiver" />
+					<attribute id="MapKey" type="FixedString" value="94feb2b4-94db-4d48-affd-1edfecc0e8e1" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3e6aac21-333b-4812-a554-376c2d157ba9" />
+					<attribute id="StoryItem" type="bool" value="True" />
+                    <attribute id="VisualTemplate" type="FixedString" value="30ddfacd-947a-4db2-d96a-28f4662b769e" />
+					<attribute id="ContainerAutoAddOnPickup" type="bool" value="True" />
+					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('ARROW')" />
+					<children>
+						<node id="InventoryList" />
+					</children>
+				</node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h32f9edf13fa9403b832cc8180691d83110ce" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h2012b0de510f40fb99f4fbe1661a767f2ed8" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Name" type="LSString" value="CFT_Artisans_Tools" />
+					<attribute id="Stats" type="FixedString" value="CFT_Artisans_Tools" /> 
+					<attribute id="Icon" type="FixedString" value="Item_CONT_GEN_Crate_Wood_B" />
+					<attribute id="MapKey" type="FixedString" value="af18693a-2249-41d0-beb8-25d407c2ebb4" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9611ac43-410c-447d-b786-853b8d30408c" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="8b0483d1-0f0a-42da-a195-0b403f8f4fb5" />
+					<attribute id="StoryItem" type="bool" value="True" />
+                    <attribute id="VisualTemplate" type="FixedString" value="fef15e8a-7c54-4c0a-8a0a-4413171f5f2d" />
+                    <attribute id="ContainerAutoAddOnPickup" type="bool" value="True" />
+					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('CFT_TOOL')" />
+					<children>
+						<node id="InventoryList">
+                            <children>
+                                <node id="InventoryItem">
+                                    <attribute id="Object" type="FixedString" value="CFT_CHEAT" />
+                                </node>
+                            </children>
+                        </node>
+					</children>
+				</node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6330cfbe09044ac2bd794f7d80dd7d183a63" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="ha6786a5b56fa49b3ae745420053965033e5f" version="1" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Name" type="LSString" value="CFT_CONT_Recipes" />
+					<attribute id="Stats" type="FixedString" value="CFT_CONT_Recipes" /> 
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Book_D" />
+					<attribute id="MapKey" type="FixedString" value="c05a5169-84db-49ab-ad2e-a50dc40269bb" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3e6aac21-333b-4812-a554-376c2d157ba9" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="e48eafc4-5b24-71e7-3783-f548d0744813" />
+                    <attribute id="VisualTemplate" type="FixedString" value="fedcbd8a-ba23-f6f0-cf6e-65a32017e48c" />
+					<attribute id="StoryItem" type="bool" value="True" />
+					<attribute id="ContainerAutoAddOnPickup" type="bool" value="True" />
+					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('CFT_RECIPE')" />
+					<children>
+                        <node id="Bounds">
+                            <children>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="0.191031" />
+                                    <attribute id="Max" type="fvec3" value="0.20363127 0.13876978 0.21674776" />
+                                    <attribute id="Min" type="fvec3" value="-0.20383675 -0.013120107 -0.21674776" />
+                                    <attribute id="Radius" type="float" value="0.215493" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="1" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="0.191031" />
+                                    <attribute id="Max" type="fvec3" value="0.20363127 0.13876978 0.21674776" />
+                                    <attribute id="Min" type="fvec3" value="-0.20383675 -0.013120107 -0.21674776" />
+                                    <attribute id="Radius" type="float" value="0.215493" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="2" />
+                                </node>
+                                <node id="Bound">
+                                    <attribute id="Height" type="float" value="0.191031" />
+                                    <attribute id="Max" type="fvec3" value="0.10181563 0.13876978 0.10837388" />
+                                    <attribute id="Min" type="fvec3" value="-0.10191838 -0.013120107 -0.10837388" />
+                                    <attribute id="Radius" type="float" value="0.1077465" />
+                                    <attribute id="Shape" type="uint8" value="1" />
+                                    <attribute id="Type" type="uint8" value="0" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+				</node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9a1c71117501424c91eac7afc61bfa11de4f" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h138508a2d94b409cbfe483f8116b7d65867a" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Name" type="LSString" value="CFT_CONT_GemPouch" />
+					<attribute id="Stats" type="FixedString" value="CFT_CONT_GemPouch" /> 
+					<attribute id="Icon" type="FixedString" value="Item_CONT_GEN_Pouch_Leather_Old_A" /> 
+					<attribute id="MapKey" type="FixedString" value="9d8737f0-5b62-4547-9385-cd89687b4ce4" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3e6aac21-333b-4812-a554-376c2d157ba9" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="68e81f6a-8ba8-7a9e-9d5b-f6104c13903b" />
+					<attribute id="StoryItem" type="bool" value="True" />
+                    <attribute id="VisualTemplate" type="FixedString" value="fe8ff285-0cff-ee51-4513-9768ac646e46" />
+					<attribute id="ContainerAutoAddOnPickup" type="bool" value="True" />
+					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('CFT_GEM')" />
+					<children>
+						<node id="InventoryList">
+                            <children>
+                                <node id="InventoryItem">
+                                    <attribute id="Object" type="FixedString" value="CFT_CHEAT_Gems_All" />
+                                </node>
+                            </children>
+                        </node>
+					</children>
+				</node>
+				<node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0ad90aab3ecd4b11b77b6d0601db04a631c8" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0eaaf0169dd44cc6b8587c5fc16ba5d3cef7" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Name" type="LSString" value="CFT_CONT_ComponentPouch" />
+					<attribute id="Stats" type="FixedString" value="CFT_CONT_ComponentPouch" /> 
+					<attribute id="Icon" type="FixedString" value="Item_CONT_GEN_Pouch_Leather_A" />
+					<attribute id="MapKey" type="FixedString" value="16286cd0-b77a-4a31-bffd-cddbc04d17ee" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3e6aac21-333b-4812-a554-376c2d157ba9" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="6c2e131b-333f-0346-c3f5-f5fe21c958c9" /> 
+					<attribute id="StoryItem" type="bool" value="True" />
+                    <attribute id="VisualTemplate" type="FixedString" value="d9e99c01-7ace-056f-f539-c03b89acd86d" /> 
+					<attribute id="ContainerAutoAddOnPickup" type="bool" value="True" />
+					<attribute id="ContainerContentFilterCondition" type="LSString" value="Tagged('CFT_COMPONENT')" />
+					<children>
+						<node id="InventoryList">
+                            <children>
+                                <node id="InventoryList" />
+                            </children>
+                        </node>
+					</children>
+				</node>
+                <!--#####################################################################################################################-->
+			</children>
+		</node>
+	</region>
+</save>

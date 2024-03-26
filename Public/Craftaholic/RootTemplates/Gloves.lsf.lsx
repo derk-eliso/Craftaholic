@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" />
+	<region id="Templates">
+		<node id="Templates">
+			<children> 
+                <!--####################################   Templates   ####################################-->
+                <!--###################################   Components   ###################################-->
+                <!--#####################################   Common   #####################################-->
+                <!--####################################   Uncommon   ####################################-->
+                <!--######################################   Rare   ######################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h59a59da74f6d4c6ba2d3bbd7fc40adc8a98e" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h101c43ed89ab4059b3216b4503863dcf1g99" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_MAG_Rage_TempHPOnExit_Amulet" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="55666331-673d-4db9-86a7-87f83a000347" />
+                    <attribute id="Name" type="LSString" value="CFT_Gloves_Captains_Clawbound" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="b51863cc-f8de-4945-a062-6bda2a35cdbc" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="666cc317-39d0-1364-9f77-87bce03b8dc2" />
+                    <attribute id="Stats" type="FixedString" value="CFT_Gloves_Captains_Clawbound" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="369e3990-ab0c-6aa5-7325-f29ec0ebd2dd" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144255925564211200" />
+                </node>
+                <!--####################################   Very Rare   ####################################-->
+                <!--####################################   Legendary   ####################################-->
+                <!--#######################################################################################-->
+			</children>
+		</node>
+	</region>
+</save>

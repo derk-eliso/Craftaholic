@@ -1,0 +1,33 @@
+//-- Templates -------------------------------------//
+
+//--------------------------------------------------//
+
+//-- Common ----------------------------------------//
+
+//--------------------------------------------------//
+
+//-- Uncommon --------------------------------------//
+
+//--------------------------------------------------//
+
+//-- Rare ------------------------------------------//
+new entry "CFT_Gloves_Captains_Clawbound"
+type "Armor"
+using "_Hand_Magic"
+data "RootTemplate" "55666331-673d-4db9-86a7-87f83a000347"
+data "ValueOverride" "1000"
+data "Rarity" "Rare"
+data "ComboCategory" "CFT_Gloves_Rare"
+data "Boosts" "RollBonus(SavingThrow, 1, Dexterity);UnlockSpell(CFT_Target_Wolf_Claws)"
+data "PassivesOnEquip" "LOW_BhaalAmulet_Passive"
+data "Proficiency Group" "LightArmor"
+data "Unique" "1"
+//--------------------------------------------------//
+
+//-- Very Rare -------------------------------------//
+
+//--------------------------------------------------//
+
+//-- Legendary -------------------------------------//
+
+//--------------------------------------------------//

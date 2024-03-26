@@ -1,8 +1,188 @@
 new treasuretable "TUT_Chest_Potions"
 CanMerge 1
 new subtable "1,1"
-object category "I_CFT_Test_Bench",1,0,0,0,0,0,0,0
-new subtable "2,1"
-object category "CFT_Uncommon_Ring",1,0,0,0,0,0,0,0
+object category "I_CFT_CONT_Artisans_Tools",1,0,0,0,0,0,0,0
 new subtable "1,1"
-object category "CFT_Uncommon_Amulet",1,0,0,0,0,0,0,0
+object category "I_CFT_CONT_Quiver",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_CFT_CONT_ScrollCase",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_CFT_CONT_Recipes",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_CFT_CONT_GemPouch",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_CFT_CONT_ComponentPouch",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_SHA_JusticiarArmor_Gloves",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_CFT_Gloves_Captains_Clawbound",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ALCH_Solution_Potion_FeatherFall",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_OBJ_Potion_Of_Animal_Speaking",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ALCH_Solution_Elixir_Meditation",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ALCH_Solution_Elixir_Meditation_Greater",1,0,0,0,0,0,0,0
+
+
+
+
+new treasuretable "CFT_TT_Artisans_Tools"
+new subtable "0,1;1,2"
+object category "I_CFT_Tinkers_Tools",1,0,0,0,0,0,0,0
+object category "I_CFT_Jewelers_Tools",1,0,0,0,0,0,0,0
+object category "I_CFT_Alchemists_Supplies",1,0,0,0,0,0,0,0
+object category "I_CFT_Smiths_Tools",1,0,0,0,0,0,0,0
+object category "I_CFT_Leatherworkers_Tools",1,0,0,0,0,0,0,0
+object category "I_CFT_Weavers_Tools",1,0,0,0,0,0,0,0
+object category "I_CFT_Calligraphers_Supplies",1,0,0,0,0,0,0,0
+object category "I_CFT_Enchanting_Wand",1,0,0,0,0,0,0,0
+
+new treasuretable "CFT_CHEAT"
+new subtable "1,1"
+object category "I_CFT_Tinkers_Tools",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_CFT_Jewelers_Tools",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_CFT_Alchemists_Supplies",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_CFT_Smiths_Tools",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_CFT_Leatherworkers_Tools",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_CFT_Weavers_Tools",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_CFT_Calligraphers_Supplies",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_CFT_Enchanting_Wand",1,0,0,0,0,0,0,0
+
+new treasuretable "CFT_CHEAT_Gems_New"
+new subtable "0,1;1,1;2,1"
+object category "I_CFT_GEM_Emerald",1,0,0,0,0,0,0,0
+object category "I_CFT_GEM_Citrine",1,0,0,0,0,0,0,0
+object category "I_CFT_GEM_Sardonyx",1,0,0,0,0,0,0,0
+object category "I_CFT_GEM_Spodumene",1,0,0,0,0,0,0,0
+object category "I_CFT_GEM_Chrysoberyl",1,0,0,0,0,0,0,0
+object category "I_CFT_GEM_Tremair",1,0,0,0,0,0,0,0
+object category "I_CFT_GEM_Smoky_Quartz",1,0,0,0,0,0,0,0
+object category "I_CFT_GEM_Spinel",1,0,0,0,0,0,0,0
+object category "I_CFT_GEM_Samarskite",1,0,0,0,0,0,0,0
+object category "I_CFT_GEM_Obsidian",1,0,0,0,0,0,0,0
+object category "I_CFT_GEM_Lapis_Lazuli",1,0,0,0,0,0,0,0
+new subtable "0,8;1,2"
+object category "I_CFT_GEM_Beryllonite",1,0,0,0,0,0,0,0
+
+new treasuretable "CFT_TT_Gems_Old"
+new subtable "0,1;1,1;2,1"
+object category "I_OBJ_Agate",1,0,0,0,0,0,0,0
+object category "I_OBJ_Amethyst",1,0,0,0,0,0,0,0
+object category "I_OBJ_Bloodstone",1,0,0,0,0,0,0,0
+object category "I_OBJ_Diamond",1,0,0,0,0,0,0,0
+object category "I_OBJ_Jacinth",1,0,0,0,0,0,0,0
+object category "I_OBJ_Jade",1,0,0,0,0,0,0,0
+object category "I_OBJ_Malachite",1,0,0,0,0,0,0,0
+object category "I_OBJ_Pearl",1,0,0,0,0,0,0,0
+object category "I_OBJ_Peridot",1,0,0,0,0,0,0,0
+object category "I_OBJ_Ruby",1,0,0,0,0,0,0,0
+object category "I_OBJ_Sapphire",1,0,0,0,0,0,0,0
+object category "I_OBJ_Topaz",1,0,0,0,0,0,0,0
+object category "I_OBJ_Onyx",1,0,0,0,0,0,0,0
+object category "I_OBJ_Crystal_PurpleFluorite_Shard",1,0,0,0,0,0,0,0
+new subtable "0,9;1,1"
+object category "I_OBJ_DiamondDark",1,0,0,0,0,0,0,0
+
+new treasuretable "CFT_CHEAT_Gems_All"
+new subtable "-1"
+object category "I_CFT_GEM_Emerald",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_CFT_GEM_Citrine",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_CFT_GEM_Sardonyx",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_CFT_GEM_Spodumene",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_CFT_GEM_Chrysoberyl",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_CFT_GEM_Tremair",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_CFT_GEM_Smoky_Quartz",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_CFT_GEM_Spinel",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_CFT_GEM_Samarskite",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_CFT_GEM_Obsidian",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_CFT_GEM_Lapis_Lazuli",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_CFT_GEM_Beryllonite",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_OBJ_Agate",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_OBJ_Amethyst",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_OBJ_DiamondDark",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_OBJ_Bloodstone",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_OBJ_Diamond",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_OBJ_Jacinth",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_OBJ_Jade",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_OBJ_Malachite",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_OBJ_Pearl",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_OBJ_Peridot",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_OBJ_Ruby",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_OBJ_Sapphire",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_OBJ_Topaz",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_OBJ_Onyx",1,0,0,0,0,0,0,0
+
+
+
+
+
+
+
+new treasuretable "WYR_Dragon_Legendary_Trident_Treasure"
+CanMerge 1
+new subtable "-1"
+object category "I_CFT_LOOT_Dragontooth",1,0,0,0,0,0,0,0
+
+new treasuretable "UND_Bulette"
+CanMerge 1
+new subtable "-1"
+object category "I_CFT_LOOT_Bulette_Scales",1,0,0,0,0,0,0,0
+
+new treasuretable "CFT_TT_Hellsboar"
+CanMerge 1
+new subtable "-1"
+object category "I_CFT_LOOT_Hellsboar_Tusk",1,0,0,0,0,0,0,0
+
+new treasuretable "CFT_TT_Displacer_Beast"
+CanMerge 1
+new subtable "-1"
+object category "I_CFT_LOOT_Displacer_Beast_Hide",1,0,0,0,0,0,0,0
+
+new treasuretable "Monster_Hyena"
+CanMerge 1
+new subtable "1,5;2,1"
+object category "I_CFT_LW_Hyena_Pelt",1,0,0,0,0,0,0,0
+
+new treasuretable "CFT_TT_Wolf_Uruth"
+CanMerge 1
+new subtable "-1"
+object category "I_CFT_LOOT_Uruth_Paw",1,0,0,0,0,0,0,0
+
+new treasuretable "CFT_TT_Wolf_Dhak"
+CanMerge 1
+new subtable "-1"
+object category "I_CFT_LOOT_Dhak_Paw",1,0,0,0,0,0,0,0
