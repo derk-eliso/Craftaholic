@@ -1,0 +1,8 @@
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "1,1"
+object category "I_CFT_Test_Bench",1,0,0,0,0,0,0,0
+new subtable "2,1"
+object category "CFT_Uncommon_Ring",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "CFT_Uncommon_Amulet",1,0,0,0,0,0,0,0

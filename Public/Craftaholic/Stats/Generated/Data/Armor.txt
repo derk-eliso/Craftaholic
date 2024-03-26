@@ -1,0 +1,32 @@
+//-- Base Templates --------------------------------//
+new entry "CFT_Uncommon_Ring"
+type "Armor"
+using "_Ring_Magic"
+data "Slot" "Ring"
+data "Weight" "0.02"
+data "ObjectCategory" "CFT_Uncommon_JC;CFT_Uncommon_Ring"
+data "ComboCategory" "CFT_Uncommon_JC_DE"
+
+new entry "CFT_Uncommon_Amulet"
+type "Armor"
+using "_Amulet_Magic"
+data "Slot" "Amulet"
+data "Weight" "0.05"
+data "ObjectCategory" "CFT_Uncommon_JC;CFT_Uncommon_Amulet"
+data "ComboCategory" "CFT_Uncommon_JC_DE"
+//--------------------------------------------------//
+
+new entry "CFT_TestRing"
+type "Armor"
+using "CFT_Uncommon_Ring"
+data "RootTemplate" "d110a553-85f9-45d7-860e-4d9bda88bc1c"
+data "Rarity" "Uncommon"
+data "Boosts" "Resistance(Lightning, Resistant)"
+data "PassivesOnEquip" "MAG_ChargedLightning_Resistance_Ring_Passive"
+
+new entry "CFT_TestAmulet"
+type "Armor"
+using "CFT_Uncommon_Amulet"
+data "RootTemplate" "8ec58000-41cf-43b6-ade6-492d04da5a03"
+data "Rarity" "Uncommon"
+data "Boosts" "Resistance(Lightning, Resistant)"
