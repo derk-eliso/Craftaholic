@@ -10,23 +10,23 @@
     <content contentuid="h009ab187fa184809984141511135f4f98057" version="1">Scroll Case</content>
     <content contentuid="hf74dd4d79a794e80a4044ce5ef831c664fb5" version="1">A diligently crafted leather container designed to safeguard your scrolls with elegance and sophistication.</content>
     <content contentuid="h53a8a798605b4c3eb6f753cc4391597e74bg" version="1">Jeweler's Tools</content>
-    <content contentuid="hcc0bed3bfafd413bae091944da8f41e1c8ed" version="1">Jeweler's tools consist of a small saw, hammer, files, pliers, and tweezers. </content>
+    <content contentuid="hcc0bed3bfafd413bae091944da8f41e1c8ed" version="1">Consisting of a small saw, hammer, files, pliers, and tweezers. </content>
     <content contentuid="h4a5a4db92a5342b58f5ed209a9bd81305e18" version="1">Smith's Tools</content>
-    <content contentuid="hc46383bce7c14ffc968075fb7ae67809c0gf" version="1">Smith's tools allow you to work metal, heating it to alter its shape, or work raw ingots into useful items.</content>
+    <content contentuid="hc46383bce7c14ffc968075fb7ae67809c0gf" version="1">Allows you to work metal, heating it to alter its shape, or work raw ingots into useful items.</content>
     <content contentuid="h9607d5ff76304e458851609365d856129448" version="1">Leatherworker's Tools</content>
-    <content contentuid="h58a39d15d57d4510bd515491a7ba9db4d1c3" version="1">Leatherworker's tools include a knife, a small mallet, an edger, a hole punch, thread, and leather scraps.</content>
+    <content contentuid="h58a39d15d57d4510bd515491a7ba9db4d1c3" version="1">Includes a knife, a small mallet, an edger, a hole punch, thread, and leather scraps.</content>
     <content contentuid="h95f831fd8fa249cebf594560dd51a35638ge" version="1">Weaver's Tools</content>
-    <content contentuid="h44f9f980f0ad47a7b7ca59bbc5dd0f22df0f" version="1">Weaver's tools allow you to create cloth and tailor it into articles of clothing.</content>
+    <content contentuid="h44f9f980f0ad47a7b7ca59bbc5dd0f22df0f" version="1">Allows you to create cloth and tailor it into articles of clothing.</content>
     <content contentuid="hc7d4055adc0d4140b00eca673aca772a8f4f" version="1">Calligrapher's Supplies</content>
-    <content contentuid="h0bfe8bc5c40148d89f6e82d8ce6dff474a5a" version="1">Calligrapher's Supplies include ink, stamps, seals, quills, and a dozen sheets of parchment.</content>
+    <content contentuid="h0bfe8bc5c40148d89f6e82d8ce6dff474a5a" version="1">A stocked kit including ink, stamps, seals, quills, and a dozen sheets of parchment.</content>
     <content contentuid="h701e431c04034f5a9c435bfa8940b08ce5b3" version="1">Tinker's Tools</content>
-    <content contentuid="h94218119a94c4b16bb6b99d7e9be47f5c9gc" version="1">Tinker's tools include a variety of hand tools, used for disassembling.</content>
+    <content contentuid="h94218119a94c4b16bb6b99d7e9be47f5c9gc" version="1">A variety of hand tools, used for disassembling.</content>
     <content contentuid="hcf41e0ffe4874e47a64a0ab3e45e0a7c9331" version="1">Enchanting Wand</content>
-    <content contentuid="h1b3f1ee2f7214f66b0a5e1d427a4f28cecd5" version="1">A stylish wand with strands of weave swirling inside the gem at the tip.</content>
+    <content contentuid="h1b3f1ee2f7214f66b0a5e1d427a4f28cecd5" version="1">A stylish wand with strands of weave swirling around inside the gem at the tip.</content>
     <content contentuid="h0668e6e13b7d4574b9200282faccc8f3e86g" version="1">Alchemist's Supplies</content>
-    <content contentuid="hf15e1b1350ff42e294780f0e84dc8abf34fg" version="1">Alchemist's supplies include two glass beakers, a metal frame to hold a beaker in place over an open flame, a glass stirring rod, a small mortar and pestle, and a pouch of common alchemical ingredients, including salt, powdered iron, and purified water.</content>
+    <content contentuid="hf15e1b1350ff42e294780f0e84dc8abf34fg" version="1">Everything an Alchemist needs. Glass beakers, a metal frame to hold a beaker in place over an open flame, a glass stirring rod, a small mortar and pestle, and a pouch of common alchemical ingredients, including salt, powdered iron, and purified water.</content>
     <content contentuid="h32f9edf13fa9403b832cc8180691d83110ce" version="1">Artisan's Tools</content>
-    <content contentuid="h2012b0de510f40fb99f4fbe1661a767f2ed8" version="1">Artisan's Tools contains all the tools needed to work with the Artificer stations.</content>
+    <content contentuid="h2012b0de510f40fb99f4fbe1661a767f2ed8" version="1">All the tools needed to work with the Artificer stations.</content>
     <content contentuid="h55335c1a31fe4a77bfd93c14549c77082gb1" version="1">Craftaholic Tool</content>
     <content contentuid="h0745c4c4a9d1424cb36e75902861f42f77ad" version="1">Tag for tools added by Craftaholic</content>
     <content contentuid="hb5c0509d318748daae181daa2f6161e6b371" version="1">Quiver</content>
@@ -79,9 +79,23 @@
     <content contentuid="hbf30ff83bc0a4c76b553ee901a5f15aab338" version="1">Elemental Water</content>
     <content contentuid="h691e78b5be374c409e79c3e56e46535c6f0d" version="1">The fluid essence of life and tranquility, flowing with graceful majesty through the veins of the world, shaping landscapes and nurturing all living beings.</content>
     <content contentuid="h2f52055ef1d74415996ea907653bc98bd7ee" version="1">Craftaholic Component</content>
-    <content contentuid="h11ea11347514403b9e8e7c1ccec4e493bb13" version="1">Tag for components added by Craftaholic</content>
+    <content contentuid="h11ea11347514403b9e8e7c1ccec4e493bb13" version="1">Tag for components added by Craftaholic.</content>
     <content contentuid="h0ad90aab3ecd4b11b77b6d0601db04a631c8" version="1">Component Pouch</content>
     <content contentuid="h0eaaf0169dd44cc6b8587c5fc16ba5d3cef7" version="1">A compartmentalized pouch for holding various components.</content>
     <content contentuid="h59a59da74f6d4c6ba2d3bbd7fc40adc8a98e" version="1">Captain's Clawbound Gloves</content>
     <content contentuid="h101c43ed89ab4059b3216b4503863dcf1g99" version="1">The fur lining is kind of itchy, but these claws are sharp!</content>
+    <content contentuid="h9d9fc5491c8f41ec93c1beadccfdcff64db7" version="1">Ansur's Thunderfang</content>
+    <content contentuid="h5ea3c8e807bf48c5ad0311a8bf72411f84b0" version="1">Crackling with residual lightning magic, this tooth belongs to the once bronze dragon Ansur, the Heart of the Gate.</content>
+    <content contentuid="h2ddcdfedfc564a21af02eb97ded8fbe1gd4g" version="1">Linen Cloth</content>
+    <content contentuid="ha855f5a34bd84a4796ee5133355d215e92b3" version="1">Versatile fabric suitable for a wide range of uses.</content>
+    <content contentuid="h4efe49a8d0d5408a819929d46a3a8283a2df" version="1">Linen Scraps</content>
+    <content contentuid="h61d0508763d24c2186fcf6ccb73b5931eg7f" version="1">Torn pieces of scrap linen.</content>
+    <content contentuid="h05f91580526349dc99eb7c11eb8d805874b3" version="1">Rugged Leather</content>
+    <content contentuid="he3a32aa837734d3ebffbbe5a32467dd1020d" version="1">Tough and weather-resistant, a leatherworker's best friend.</content>
+    <content contentuid="he0f90781ef6348f391559390f40d89829116" version="1">Leather Scraps</content>
+    <content contentuid="h415cd0ee983a41b194ab27c75564059acc6b" version="1">Scraps of rugged leather.</content>
+    <content contentuid="h6e33a69c8fc645feb27b9469b907a273adcg" version="1">Thread</content>
+    <content contentuid="h2789bf2f8fe34f5e9f0896048dc91a9a0b2c" version="1">A neatly wound reel of fine thread.</content>
+    <content contentuid="h2cc0fdc4235848cf8a4c2c4d586c6dab3a1g" version="1">Twine</content>
+    <content contentuid="h6292cfbc9bc04786bcf2b37576db3ea5131b" version="1">Thin and sturdy strands intertwined.</content>
   </contentList>

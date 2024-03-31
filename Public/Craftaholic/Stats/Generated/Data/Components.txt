@@ -33,5 +33,62 @@ new entry "CFT_ALCH_Elemental_Water"
 type "Object"
 using "BASE_ALCH_Extract_Water"
 data "RootTemplate" "434c2bea-1e0b-4e69-b0cd-45442c353fe5"
+//----//
 
+//-- Tailoring --//
+new entry "CFT_WEAVE_Linen_Cloth"
+type "Object"
+using "_Loot"
+data "RootTemplate" "f1bd4ba5-f711-4c87-8fda-e23fe5260f0d"
+data "ValueOverride" "20"
+data "Weight" "0.1"
+
+new entry "CFT_WEAVE_Scrap_Linen"
+type "Object"
+using "_Loot"
+data "RootTemplate" "ccca6e14-10c0-4dde-9cdc-2cd14cd4bcf4"
+data "ValueOverride" "10"
+data "Weight" "0.05"
+//-- --//
+
+//-- Leatherworking --//
+new entry "CFT_LW_Leather"
+type "Object"
+using "_Loot"
+data "RootTemplate" "43da950b-aad9-487e-87f0-ee96fe1d166d"
+data "ValueOverride" "50"
+data "Weight" "0.1"
+
+new entry "CFT_LW_Scrap_Leather"
+type "Object"
+using "_Loot"
+data "RootTemplate" "49cb6e2a-8cad-4d5a-868c-d53a45c1b465"
+data "ValueOverride" "15"
+data "Weight" "0.05"
+//-- --//
+
+//-- Common --//
+new entry "CFT_COMP_Twine"
+type "Object"
+using "_Loot"
+data "RootTemplate" "d57923c7-10a5-4810-bcf5-ca2f425f9d71"
+data "ValueOverride" "15"
+data "Weight" "0.02"
+
+new entry "CFT_COMP_Thread"
+type "Object"
+using "_Loot"
+data "RootTemplate" "2fd69204-a15b-4f26-b027-5d384c3a3e59"
+data "ValueOverride" "10"
+data "Weight" "0.01"
+//-- --//
+
+//-- Legendary --//
+new entry "CFT_LOOT_Dragontooth"
+type "Object"
+using "OBJ_BodyPart_Generic_Fang"
+data "RootTemplate" "f2820a36-597a-4e97-a1af-193bfedd93dc"
+data "Rarity" "Legendary"
+data "ValueOverride" "1500"
+data "Weight" "2"
 //----//

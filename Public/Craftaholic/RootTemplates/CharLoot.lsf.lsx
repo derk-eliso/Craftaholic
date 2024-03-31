@@ -295,6 +295,127 @@
 						</node>
                     </children>
                 </node>
+                <node id="GameObjects">
+                    <attribute id="Archetype" type="FixedString" value="beast" />
+                    <attribute id="BloodSurfaceType" type="FixedString" value="SurfaceNone" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6caad9e7g3d4bg4abfgb7bdge48f18319574" version="1" />
+                    <attribute id="FoleyLongResourceID" type="FixedString" value="" />
+                    <attribute id="FoleyMediumResourceID" type="FixedString" value="" />
+                    <attribute id="FoleyShortResourceID" type="FixedString" value="" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="LevelOverride" type="int32" value="6" />
+                    <attribute id="MapKey" type="FixedString" value="cad0b684-52e1-48d2-9ebd-4ff0ebe301d3" />
+                    <attribute id="Name" type="LSString" value="Elemental_Lava" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="dd144c26-ef5f-442b-b3ac-d0d697c83ad7" />
+                    <attribute id="Stats" type="FixedString" value="Elemental_Lava" />
+                    <attribute id="Type" type="FixedString" value="character" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+                    <children>
+                        <node id="LocomotionParams" />
+                        <node id="SkillList">
+                            <children>
+                                <node id="Skill">
+                                    <attribute id="AIFlags" type="uint16" value="0" />
+                                    <attribute id="FallbackStartRound" type="int32" value="-1" />
+                                    <attribute id="LearningStrategy" type="uint8" value="0" />
+                                    <attribute id="MinimumImpact" type="int32" value="0" />
+                                    <attribute id="OnlyCastOnSelf" type="bool" value="False" />
+                                    <attribute id="ScoreModifier" type="float" value="1" />
+                                    <attribute id="Skill" type="FixedString" value="Target_Multiattack_Elemental_Lava" />
+                                    <attribute id="SpellCastingAbility" type="uint8" value="0" />
+                                    <attribute id="StartRound" type="int32" value="0" />
+                                    <children>
+                                        <node id="SourceConditions">
+                                            <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                                            <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                                            <children>
+                                                <node id="Tags" />
+                                            </children>
+                                        </node>
+                                        <node id="TargetConditions">
+                                            <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                                            <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                                            <children>
+                                                <node id="Tags" />
+                                            </children>
+                                        </node>
+                                    </children>
+                                </node>
+                                <node id="Skill">
+                                    <attribute id="AIFlags" type="uint16" value="0" />
+                                    <attribute id="FallbackStartRound" type="int32" value="-1" />
+                                    <attribute id="LearningStrategy" type="uint8" value="0" />
+                                    <attribute id="MinimumImpact" type="int32" value="0" />
+                                    <attribute id="OnlyCastOnSelf" type="bool" value="False" />
+                                    <attribute id="ScoreModifier" type="float" value="1" />
+                                    <attribute id="Skill" type="FixedString" value="Target_Slam_Elemental_Lava" />
+                                    <attribute id="SpellCastingAbility" type="uint8" value="0" />
+                                    <attribute id="StartRound" type="int32" value="0" />
+                                    <children>
+                                        <node id="SourceConditions">
+                                            <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                                            <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                                            <children>
+                                                <node id="Tags" />
+                                            </children>
+                                        </node>
+                                        <node id="TargetConditions">
+                                            <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                                            <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                                            <children>
+                                                <node id="Tags" />
+                                            </children>
+                                        </node>
+                                    </children>
+                                </node>
+                                <node id="Skill">
+                                    <attribute id="AIFlags" type="uint16" value="0" />
+                                    <attribute id="FallbackStartRound" type="int32" value="-1" />
+                                    <attribute id="LearningStrategy" type="uint8" value="0" />
+                                    <attribute id="MinimumImpact" type="int32" value="0" />
+                                    <attribute id="OnlyCastOnSelf" type="bool" value="False" />
+                                    <attribute id="ScoreModifier" type="float" value="1" />
+                                    <attribute id="Skill" type="FixedString" value="Shout_CreateLava" />
+                                    <attribute id="SpellCastingAbility" type="uint8" value="0" />
+                                    <attribute id="StartRound" type="int32" value="0" />
+                                    <children>
+                                        <node id="SourceConditions">
+                                            <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                                            <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                                            <children>
+                                                <node id="Tags" />
+                                            </children>
+                                        </node>
+                                        <node id="TargetConditions">
+                                            <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                                            <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                                            <children>
+                                                <node id="Tags" />
+                                            </children>
+                                        </node>
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                        <node id="StatusList">
+                            <children>
+                                <node id="Status">
+                                    <attribute id="Object" type="FixedString" value="REGENERATION_ELEMENTAL_LAVA" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="CFT_TT_Lava_Elemental" />
+								</node>
+							</children>
+						</node>
+                    </children>
+                </node>
+
+
+                
             </children>
         </node>
     </region>

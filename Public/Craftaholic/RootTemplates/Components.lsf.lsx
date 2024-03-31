@@ -4,8 +4,7 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children> 
-                <!--####################################   Templates   ####################################-->
-                <!--#####################################   Alchemy   #####################################-->
+                <!--####################################   Replacer   ####################################-->
                 <node id="GameObjects">
                     <attribute id="Description" type="TranslatedString" handle="hb2eda376g2ed4g4d34g889cgf874333d674a" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h1ecee40dg9d9eg4ef8g8821ge6caeea9afbb" version="1" />
@@ -51,6 +50,13 @@
                                 </node>
                             </children>
                         </node>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
                         <node id="OnDestroyActions">
                             <children>
                                 <node id="Action">
@@ -85,6 +91,7 @@
                         </node>
                     </children>
                 </node>
+                <!--#####################################   Alchemy   #####################################-->
                 <node id="GameObjects">
                     <attribute id="CanJoinCombat" type="bool" value="False" />
                     <attribute id="Description" type="TranslatedString" handle="hc6afc500867947f2b3c4d31969c9d2371e8f" version="1" />
@@ -441,11 +448,182 @@
                         </node>
                     </children>
                 </node>
+                <!--####################################   Tailoring   ####################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2ddcdfedfc564a21af02eb97ded8fbe1gd4g" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="ha855f5a34bd84a4796ee5133355d215e92b3" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_UNI_DEN_KanonsHandkerchief" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="f1bd4ba5-f711-4c87-8fda-e23fe5260f0d" />
+                    <attribute id="Name" type="LSString" value="CFT_WEAVE_Linen_Cloth" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="41e87646-aec7-4411-9e2b-14a17d3ffe31" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Scale" type="float" value="0.65" />
+                    <attribute id="Stats" type="FixedString" value="CFT_WEAVE_Linen_Cloth" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855929" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4efe49a8d0d5408a819929d46a3a8283a2df" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h61d0508763d24c2186fcf6ccb73b5931eg7f" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_DEC_GEN_Towel_B" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="ccca6e14-10c0-4dde-9cdc-2cd14cd4bcf4" />
+                    <attribute id="Name" type="LSString" value="CFT_WEAVE_Scrap_Linen" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="5d6162a4-f592-ae73-67cc-8b392e09ebe0" />
+                    <attribute id="Scale" type="float" value="0.5" />
+                    <attribute id="Stats" type="FixedString" value="CFT_WEAVE_Scrap_Linen" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <!--#################################   Leatherworking   #################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h05f91580526349dc99eb7c11eb8d805874b3" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="he3a32aa837734d3ebffbbe5a32467dd1020d" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_Leather" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="43da950b-aad9-487e-87f0-ee96fe1d166d" />
+                    <attribute id="Name" type="LSString" value="CFT_LW_Leather" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="41e87646-aec7-4411-9e2b-14a17d3ffe31" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Scale" type="float" value="0.65" />
+                    <attribute id="Stats" type="FixedString" value="CFT_LW_Leather" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <!-- <attribute id="VisualTemplate" type="FixedString" value="" /> -->
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855929" /> 
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="he0f90781ef6348f391559390f40d89829116" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h415cd0ee983a41b194ab27c75564059acc6b" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_Leather_Scrap" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="49cb6e2a-8cad-4d5a-868c-d53a45c1b465" />
+                    <attribute id="Name" type="LSString" value="CFT_LW_Scrap_Leather" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="5d6162a4-f592-ae73-67cc-8b392e09ebe0" />
+                    <attribute id="Scale" type="float" value="0.5" />
+                    <attribute id="Stats" type="FixedString" value="CFT_LW_Scrap_Leather" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <!-- <attribute id="VisualTemplate" type="FixedString" value="" /> -->
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
                 <!--#####################################   Common   #####################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6e33a69c8fc645feb27b9469b907a273adcg" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h2789bf2f8fe34f5e9f0896048dc91a9a0b2c" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_Thread" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="2fd69204-a15b-4f26-b027-5d384c3a3e59" />
+                    <attribute id="Name" type="LSString" value="CFT_COMP_Thread" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="41e87646-aec7-4411-9e2b-14a17d3ffe31" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Scale" type="float" value="0.65" />
+                    <attribute id="Stats" type="FixedString" value="CFT_COMP_Thread" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <!-- <attribute id="VisualTemplate" type="FixedString" value="" /> -->
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855929" /> 
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2cc0fdc4235848cf8a4c2c4d586c6dab3a1g" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h6292cfbc9bc04786bcf2b37576db3ea5131b" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_Twine" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="d57923c7-10a5-4810-bcf5-ca2f425f9d71" />
+                    <attribute id="Name" type="LSString" value="CFT_COMP_Twine" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="5d6162a4-f592-ae73-67cc-8b392e09ebe0" />
+                    <attribute id="Scale" type="float" value="0.5" />
+                    <attribute id="Stats" type="FixedString" value="CFT_COMP_Twine" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <!-- <attribute id="VisualTemplate" type="FixedString" value="" /> -->
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
                 <!--####################################   Uncommon   ####################################-->
                 <!--######################################   Rare   ######################################-->
                 <!--####################################   Very Rare   ####################################-->
                 <!--####################################   Legendary   ####################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9d9fc5491c8f41ec93c1beadccfdcff64db7" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h5ea3c8e807bf48c5ad0311a8bf72411f84b0" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_LOOT_Underdark_Fang_A" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="f2820a36-597a-4e97-a1af-193bfedd93dc" />
+                    <attribute id="Name" type="LSString" value="CFT_LOOT_Dragontooth" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="80169178-734d-48f0-9022-d3392a009c92" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Scale" type="float" value="4.5" />
+                    <attribute id="Stats" type="FixedString" value="CFT_LOOT_Dragontooth" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855944" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
                 <!--#######################################################################################-->
 			</children>
 		</node>
