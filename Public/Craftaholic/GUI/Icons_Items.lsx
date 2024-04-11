@@ -52,7 +52,7 @@
                    <attribute id="V2" type="float" value="0.0625"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_Weavers_Tools"/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_TOOL_Weavers_Tools"/> 
                    <attribute id="U1" type="float" value="0.25"/> 
                    <attribute id="U2" type="float" value="0.3125"/> 
                    <attribute id="V1" type="float" value="0.0"/> 
@@ -73,63 +73,63 @@
                    <attribute id="V2" type="float" value="0.0625"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_Jewelers_Tools"/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_TOOL_Jewelers_Tools"/> 
                    <attribute id="U1" type="float" value="0.4375"/> 
                    <attribute id="U2" type="float" value="0.5"/> 
                    <attribute id="V1" type="float" value="0.0"/> 
                    <attribute id="V2" type="float" value="0.0625"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_Tinkers_Tools"/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_TOOL_Tinkers_Tools"/> 
                    <attribute id="U1" type="float" value="0.5"/> 
                    <attribute id="U2" type="float" value="0.5625"/> 
                    <attribute id="V1" type="float" value="0.0"/> 
                    <attribute id="V2" type="float" value="0.0625"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_Copper_Ignot"/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_COMP_Copper_Ignot"/> 
                    <attribute id="U1" type="float" value="0.5625"/> 
                    <attribute id="U2" type="float" value="0.625"/> 
                    <attribute id="V1" type="float" value="0.0"/> 
                    <attribute id="V2" type="float" value="0.0625"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_Gold_Chunk"/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_COMP_Gold_Chunk"/> 
                    <attribute id="U1" type="float" value="0.625"/> 
                    <attribute id="U2" type="float" value="0.6875"/> 
                    <attribute id="V1" type="float" value="0.0"/> 
                    <attribute id="V2" type="float" value="0.0625"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_Bronze_Chunk"/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_COMP_Bronze_Chunk"/> 
                    <attribute id="U1" type="float" value="0.6875"/> 
                    <attribute id="U2" type="float" value="0.75"/> 
                    <attribute id="V1" type="float" value="0.0"/> 
                    <attribute id="V2" type="float" value="0.0625"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_Silver_Chunk"/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_COMP_Silver_Chunk"/> 
                    <attribute id="U1" type="float" value="0.75"/> 
                    <attribute id="U2" type="float" value="0.8125"/> 
                    <attribute id="V1" type="float" value="0.0"/> 
                    <attribute id="V2" type="float" value="0.0625"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_Copper_Chunk"/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_COMP_Copper_Chunk"/> 
                    <attribute id="U1" type="float" value="0.8125"/> 
                    <attribute id="U2" type="float" value="0.875"/> 
                    <attribute id="V1" type="float" value="0.0"/> 
                    <attribute id="V2" type="float" value="0.0625"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_Thread"/>
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_COMP_Thread"/>
                    <attribute id="U1" type="float" value="0.875"/>
                    <attribute id="U2" type="float" value="0.9375"/>
                    <attribute id="V1" type="float" value="0.0"/>
                    <attribute id="V2" type="float" value="0.0625"/>
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_Twine"/>
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_COMP_Twine"/>
                    <attribute id="U1" type="float" value="0.9375"/>
                    <attribute id="U2" type="float" value="1.0"/>
                    <attribute id="V1" type="float" value="0.0"/>
@@ -137,84 +137,84 @@
                </node>
                <!-- 2nd Row -->
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_Leather"/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_LW_Leather"/> 
                    <attribute id="U1" type="float" value="0.0"/> 
                    <attribute id="U2" type="float" value="0.0625"/> 
                    <attribute id="V1" type="float" value="0.0625"/> 
                    <attribute id="V2" type="float" value="0.125"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_Leather_Scrap"/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_LW_Leather_Scrap"/> 
                    <attribute id="U1" type="float" value="0.0625"/> 
                    <attribute id="U2" type="float" value="0.125"/> 
                    <attribute id="V1" type="float" value="0.0625"/> 
                    <attribute id="V2" type="float" value="0.125"/>  
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value=""/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Transmutation"/> 
                    <attribute id="U1" type="float" value="0.125"/> 
                    <attribute id="U2" type="float" value="0.1875"/> 
                    <attribute id="V1" type="float" value="0.0625"/> 
                    <attribute id="V2" type="float" value="0.125"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value=""/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Necromancy"/> 
                    <attribute id="U1" type="float" value="0.1875"/> 
                    <attribute id="U2" type="float" value="0.25"/> 
                    <attribute id="V1" type="float" value="0.0625"/> 
                    <attribute id="V2" type="float" value="0.125"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value=""/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Illusion"/> 
                    <attribute id="U1" type="float" value="0.25"/> 
                    <attribute id="U2" type="float" value="0.3125"/> 
                    <attribute id="V1" type="float" value="0.0625"/> 
                    <attribute id="V2" type="float" value="0.125"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value=""/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Evocation"/> 
                    <attribute id="U1" type="float" value="0.3125"/> 
                    <attribute id="U2" type="float" value="0.375"/> 
                    <attribute id="V1" type="float" value="0.0625"/> 
                    <attribute id="V2" type="float" value="0.125"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value=""/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Enchantment"/> 
                    <attribute id="U1" type="float" value="0.375"/> 
                    <attribute id="U2" type="float" value="0.4375"/> 
                    <attribute id="V1" type="float" value="0.0625"/> 
                    <attribute id="V2" type="float" value="0.125"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value=""/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Divination"/> 
                    <attribute id="U1" type="float" value="0.4375"/> 
                    <attribute id="U2" type="float" value="0.5"/> 
                    <attribute id="V1" type="float" value="0.0625"/> 
                    <attribute id="V2" type="float" value="0.125"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value=""/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Conjuration"/> 
                    <attribute id="U1" type="float" value="0.5"/> 
                    <attribute id="U2" type="float" value="0.5625"/> 
                    <attribute id="V1" type="float" value="0.0625"/> 
                    <attribute id="V2" type="float" value="0.125"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value=""/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Abjuration"/> 
                    <attribute id="U1" type="float" value="0.5625"/> 
                    <attribute id="U2" type="float" value="0.625"/> 
                    <attribute id="V1" type="float" value="0.0625"/> 
                    <attribute id="V2" type="float" value="0.125"/>  
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value=""/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_ALCH_Elemental_Fey"/> 
                    <attribute id="U1" type="float" value="0.625"/> 
                    <attribute id="U2" type="float" value="0.6875"/> 
                    <attribute id="V1" type="float" value="0.0625"/> 
                    <attribute id="V2" type="float" value="0.125"/> 
                </node>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value=""/> 
+                   <attribute id="MapKey" type="FixedString" value="Icon_CFT_ALCH_Elemental_Shadow"/> 
                    <attribute id="U1" type="float" value="0.6875"/> 
                    <attribute id="U2" type="float" value="0.75"/> 
                    <attribute id="V1" type="float" value="0.0625"/> 

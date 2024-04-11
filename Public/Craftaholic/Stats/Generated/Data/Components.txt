@@ -49,7 +49,7 @@ using "_Loot"
 data "RootTemplate" "ccca6e14-10c0-4dde-9cdc-2cd14cd4bcf4"
 data "ValueOverride" "10"
 data "Weight" "0.05"
-//-- --//
+//-----//
 
 //-- Leatherworking --//
 new entry "CFT_LW_Leather"
@@ -65,7 +65,105 @@ using "_Loot"
 data "RootTemplate" "49cb6e2a-8cad-4d5a-868c-d53a45c1b465"
 data "ValueOverride" "15"
 data "Weight" "0.05"
-//-- --//
+//-----//
+
+//-- Inscription --//
+new entry "CFT_SCRIBE_Blank_Parchment"
+type "Object"
+using "_Loot"
+data "RootTemplate" "23abfdc0-04c6-47b5-99e3-7992a662e353"
+data "ValueOverride" "15"
+data "Weight" "0.01"
+
+new entry "CFT_SCRIBE_Ink_Abjuration"
+type "Object"
+using "_Loot"
+data "RootTemplate" "b3b6a04b-e515-46d0-a967-ef9ca25dd414"
+data "ValueOverride" "50"
+data "Weight" "0.1"
+
+new entry "CFT_SCRIBE_Ink_Conjuration"
+type "Object"
+using "_Loot"
+data "RootTemplate" "213a6669-407d-4fae-99d7-7054dbb2d864"
+data "ValueOverride" "50"
+data "Weight" "0.1"
+
+new entry "CFT_SCRIBE_Ink_Divination"
+type "Object"
+using "_Loot"
+data "RootTemplate" "a42e29d5-1cc2-4c1a-bea8-dca45388fa40"
+data "ValueOverride" "50"
+data "Weight" "0.1"
+
+new entry "CFT_SCRIBE_Ink_Enchantment"
+type "Object"
+using "_Loot"
+data "RootTemplate" "5b4d37ff-7397-41cb-91c0-7da8c0a63d4f"
+data "ValueOverride" "50"
+data "Weight" "0.1"
+
+new entry "CFT_SCRIBE_Ink_Evocation"
+type "Object"
+using "_Loot"
+data "RootTemplate" "6601fc91-9020-45bf-a26a-413fa497180c"
+data "ValueOverride" "50"
+data "Weight" "0.1"
+
+new entry "CFT_SCRIBE_Ink_Illusion"
+type "Object"
+using "_Loot"
+data "RootTemplate" "e87726f8-46e9-4a43-a4f7-9c03d3da78d9"
+data "ValueOverride" "50"
+data "Weight" "0.1"
+
+new entry "CFT_SCRIBE_Ink_Necromancy"
+type "Object"
+using "_Loot"
+data "RootTemplate" "5366edda-e7e7-4766-8a91-ad34d1060743"
+data "ValueOverride" "50"
+data "Weight" "0.1"
+
+new entry "CFT_SCRIBE_Ink_Transmutation"
+type "Object"
+using "_Loot"
+data "RootTemplate" "947969f3-ee9b-468a-af3a-32f5050eb432"
+data "ValueOverride" "50"
+data "Weight" "0.1"
+//-----//
+
+//-- Enchanting --//
+new entry "CFT_ENCH_Mundane_Essence"
+type "Object"
+using "_Loot"
+data "RootTemplate" "6dbc4b4d-abf0-4fb8-b0d7-f635cb9917b2"
+data "ValueOverride" "25"
+data "Weight" "0.01"
+
+new entry "CFT_ENCH_Magic_Essence"
+type "Object"
+using "_Loot"
+data "RootTemplate" "c48924f4-83f0-4c25-8fe7-f780ab2050df"
+data "Rarity" "Uncommon"
+data "ValueOverride" "75"
+data "Weight" "0.01"
+
+new entry "CFT_ENCH_Magic_Essence_Greater"
+type "Object"
+using "_Loot"
+data "RootTemplate" "27915196-e29a-46d0-9b0a-3c63d45b4f3f"
+data "Rarity" "Rare"
+data "ValueOverride" "225"
+data "Weight" "0.01"
+
+new entry "CFT_ENCH_Magic_Essence_Superior"
+type "Object"
+using "_Loot"
+data "RootTemplate" "a0b83ae3-e798-43b2-a685-c68b6891e24a"
+data "Rarity" "VeryRare"
+data "ValueOverride" "675"
+data "Weight" "0.01"
+//-----//
 
 //-- Common --//
 new entry "CFT_COMP_Twine"
@@ -81,7 +179,42 @@ using "_Loot"
 data "RootTemplate" "2fd69204-a15b-4f26-b027-5d384c3a3e59"
 data "ValueOverride" "10"
 data "Weight" "0.01"
-//-- --//
+
+new entry "CFT_COMP_Copper_Ignot"
+type "Object"
+using "_Loot"
+data "RootTemplate" "e75d78bb-4d9a-44aa-b11c-b52e0f44a386"
+data "ValueOverride" "50"
+data "Weight" "1"
+
+new entry "CFT_COMP_Copper_Chunk"
+type "Object"
+using "_Loot"
+data "RootTemplate" "b05ddaa3-4083-4d17-b5af-62640f50f581"
+data "ValueOverride" "15"
+data "Weight" "0.33"
+
+new entry "CFT_COMP_Bronze_Chunk"
+type "Object"
+using "_Loot"
+data "RootTemplate" "0ddc1469-d86d-4a9e-b24f-d7d5ce165a62"
+data "ValueOverride" "20"
+data "Weight" "0.33"
+
+new entry "CFT_COMP_Silver_Chunk"
+type "Object"
+using "_Loot"
+data "RootTemplate" "482e964b-c3a4-4e3c-9b69-6a952aa54c19"
+data "ValueOverride" "30"
+data "Weight" "0.33"
+
+new entry "CFT_COMP_Gold_Chunk"
+type "Object"
+using "_Loot"
+data "RootTemplate" "ae64e4b4-983d-4b17-abee-c092b70b49e7"
+data "ValueOverride" "40"
+data "Weight" "0.33"
+//-----//
 
 //-- Legendary --//
 new entry "CFT_LOOT_Dragontooth"

@@ -4,6 +4,32 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children> 
+                <!-- 
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="Name" type="LSString" value="" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="" /> 
+                    <attribute id="Stats" type="FixedString" value="" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                -->
                 <!--####################################   Replacer   ####################################-->
                 <node id="GameObjects">
                     <attribute id="Description" type="TranslatedString" handle="hb2eda376g2ed4g4d34g889cgf874333d674a" version="1" />
@@ -91,54 +117,117 @@
                         </node>
                     </children>
                 </node>
-                <!--#####################################   Alchemy   #####################################-->
                 <node id="GameObjects">
-                    <attribute id="CanJoinCombat" type="bool" value="False" />
-                    <attribute id="Description" type="TranslatedString" handle="hc6afc500867947f2b3c4d31969c9d2371e8f" version="1" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="h696f0b5f8bbb45faa12f65067aa99c853501" version="1" />
-                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
-                    <attribute id="ExamineRotation" type="fvec3" value="-15 0 0" />
-                    <attribute id="Icon" type="FixedString" value="Item_alch_extract_earth_3" />
+                    <attribute id="CanClickThrough" type="bool" value="False" />
+                    <attribute id="CanClimbOn" type="bool" value="False" />
+                    <attribute id="CanShootThrough" type="bool" value="True" />
+                    <attribute id="CoverAmount" type="uint8" value="0" />
+                    <attribute id="Description" type="TranslatedString" handle="h9992bbc3g40aag4668gb03agca43d44c84d4" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h22ecbab4g4aaeg4863gb858g86e70403b4b6" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Metalbar_Bronze_A" />
+                    <attribute id="IsPointerBlocker" type="bool" value="False" />
                     <attribute id="LevelName" type="FixedString" value="" />
-                    <attribute id="MapKey" type="FixedString" value="9a28004b-7369-4124-b3d8-de2552a5e4f3" />
-                    <attribute id="Name" type="LSString" value="CFT_ALCH_Elemental_Earth" />
-                    <attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
-                    <attribute id="PhysicsTemplate" type="FixedString" value="ba7629e5-e289-8d20-f805-b6665e1353f6" />
-                    <attribute id="Stats" type="FixedString" value="CFT_ALCH_Elemental_Earth" />
-                    <attribute id="Tooltip" type="uint8" value="2" />
+                    <attribute id="LoopSound" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="5b386575-5836-40cd-8548-e5c27fd105a1" />
+                    <attribute id="Name" type="LSString" value="LOOT_GEN_Metalbar_Bronze_A" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="deb1c368-16c8-4dc4-8bb0-aaa1bd80cda2" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="23c8075c-55bc-d52b-4d0e-9239f50cebb2" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="SoundAttenuation" type="int16" value="-1" />
+                    <attribute id="SoundInitEvent" type="FixedString" value="" />
+                    <attribute id="Stats" type="FixedString" value="OBJ_Metalbar_Bronze" />
                     <attribute id="Type" type="FixedString" value="item" />
-                    <attribute id="UseSound" type="FixedString" value="2960f025-834b-52cb-c58f-d921d985564d" />
-                    <attribute id="VisualTemplate" type="FixedString" value="f6f21267-d526-77fd-fecd-a8ad37e4e9a6" />
-                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+                    <attribute id="VisualTemplate" type="FixedString" value="0ce992fc-8224-0db5-291b-df26f93a80e7" />
+                    <attribute id="Wadable" type="bool" value="False" />
+                    <attribute id="WalkOn" type="bool" value="False" />
+                    <attribute id="WalkThrough" type="bool" value="True" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855920" />
+                    <attribute id="maxStackAmount" type="int32" value="20" />
                     <children>
                         <node id="Bounds">
                             <children>
                                 <node id="Bound">
-                                    <attribute id="Height" type="float" value="0.085616" />
-                                    <attribute id="Max" type="fvec3" value="0.13202599 0.1051556 0.13406265" />
-                                    <attribute id="Min" type="fvec3" value="-0.13202593 -0.0005391091 -0.13406265" />
-                                    <attribute id="Radius" type="float" value="0.04967955" />
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.14928138 0.053735476 0.043034256" />
+                                    <attribute id="Min" type="fvec3" value="-0.14938885 0.00070284307 -0.042799845" />
+                                    <attribute id="Radius" type="float" value="0.2165065" />
                                     <attribute id="Shape" type="uint8" value="1" />
                                     <attribute id="Type" type="uint8" value="0" />
                                 </node>
                                 <node id="Bound">
-                                    <attribute id="Height" type="float" value="0.085616" />
-                                    <attribute id="Max" type="fvec3" value="0.13202599 0.1051556 0.13406265" />
-                                    <attribute id="Min" type="fvec3" value="-0.13202593 -0.0005391091 -0.13406265" />
-                                    <attribute id="Radius" type="float" value="0.0993591" />
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.14928138 0.053735476 0.043034256" />
+                                    <attribute id="Min" type="fvec3" value="-0.14938885 0.00070284307 -0.042799845" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
                                     <attribute id="Shape" type="uint8" value="1" />
                                     <attribute id="Type" type="uint8" value="1" />
                                 </node>
                                 <node id="Bound">
-                                    <attribute id="Height" type="float" value="0.085616" />
-                                    <attribute id="Max" type="fvec3" value="0.13202599 0.1051556 0.13406265" />
-                                    <attribute id="Min" type="fvec3" value="-0.13202593 -0.0005391091 -0.13406265" />
-                                    <attribute id="Radius" type="float" value="0.0993591" />
+                                    <attribute id="Height" type="float" value="1" />
+                                    <attribute id="Max" type="fvec3" value="0.14928138 0.053735476 0.043034256" />
+                                    <attribute id="Min" type="fvec3" value="-0.14938885 0.00070284307 -0.042799845" />
+                                    <attribute id="Radius" type="float" value="0.433013" />
                                     <attribute id="Shape" type="uint8" value="1" />
                                     <attribute id="Type" type="uint8" value="2" />
                                 </node>
                             </children>
                         </node>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                        <node id="GameMaster" />
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h73876a98g0450g49e3g9d4dg2af83702f6a9" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h41a22ef3g68e4g43c9g957eg979b89f37b43" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Metalbar_Silver_A" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="e0803337-e2b1-4528-8d4f-b5814e9a52ec" />
+                    <attribute id="Name" type="LSString" value="LOOT_GEN_Metalbar_Silver_A" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="5b386575-5836-40cd-8548-e5c27fd105a1" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="23c8075c-55bc-d52b-4d0e-9239f50cebb2" />
+                    <attribute id="VisualTemplate" type="FixedString" value="6df353ef-6000-8de5-154d-f7c251ed16ef" />
+                    <attribute id="Stats" type="FixedString" value="OBJ_Metalbar_Silver" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h421b0016g619dg4f89gb4bcgfb0ab0d671c6" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hc9bc42cdg7fbbg41b9gbb00gd6c6ff97f7f1" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Metalbar_Gold_A" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="44f47718-9769-4c0e-af75-7789d2f2913d" />
+                    <attribute id="Name" type="LSString" value="LOOT_GEN_Metalbar_Gold_A" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="5b386575-5836-40cd-8548-e5c27fd105a1" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="23c8075c-55bc-d52b-4d0e-9239f50cebb2" />
+                    <attribute id="VisualTemplate" type="FixedString" value="8a5abb72-40ae-a441-6151-e39cfd3f2720" />
+                    <attribute id="Stats" type="FixedString" value="OBJ_Metalbar_Gold" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+                </node>
+                <!--#####################################   Alchemy   #####################################-->
+                <node id="GameObjects">
+                    <attribute id="Description" type="TranslatedString" handle="hc6afc500867947f2b3c4d31969c9d2371e8f" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h696f0b5f8bbb45faa12f65067aa99c853501" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="ExamineRotation" type="fvec3" value="-15 0 0" />
+                    <attribute id="Icon" type="FixedString" value="Item_ALCH_Extract_Belladonna" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="9a28004b-7369-4124-b3d8-de2552a5e4f3" />
+                    <attribute id="Name" type="LSString" value="CFT_ALCH_Elemental_Earth" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="b52cfe53-bf1f-664d-b058-b47f5014b08f" />
+                    <attribute id="Stats" type="FixedString" value="CFT_ALCH_Elemental_Earth" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="VisualTemplate" type="FixedString" value="b9b2640e-d5a1-997a-4ac4-a0196c02c58e" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+                    <children>
                         <node id="Tags">
                             <children>
                                 <node id="Tag">
@@ -152,11 +241,10 @@
                     </children>
                 </node>
                 <node id="GameObjects">
-                    <attribute id="CanJoinCombat" type="bool" value="False" />
                     <attribute id="Description" type="TranslatedString" handle="h2912bc019c2b4c8d88af76bbedc1b79c1cc0" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="hbcbc058aa4af4185b571f6bc214af09ff55b" version="1" />
                     <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
-                    <attribute id="ExamineRotation" type="fvec3" value="0 0 0" />
+                    <attribute id="ExamineRotation" type="fvec3" value="-15 0 0" />
                     <attribute id="Icon" type="FixedString" value="Item_ALCH_Extract_KiRinHair" />
                     <attribute id="LevelName" type="FixedString" value="" />
                     <attribute id="MapKey" type="FixedString" value="6b36ae51-b824-4fa7-ace0-9562cc581394" />
@@ -164,40 +252,11 @@
                     <attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
                     <attribute id="PhysicsTemplate" type="FixedString" value="b52cfe53-bf1f-664d-b058-b47f5014b08f" />
                     <attribute id="Stats" type="FixedString" value="CFT_ALCH_Elemental_Air" />
-                    <attribute id="Tooltip" type="uint8" value="2" />
-                    <attribute id="TreasureOnDestroy" type="bool" value="True" />
                     <attribute id="Type" type="FixedString" value="item" />
-                    <attribute id="VisualTemplate" type="FixedString" value="46cd1695-53b6-143d-63cb-8f79485a262c" />
+                    <attribute id="VisualTemplate" type="FixedString" value="b9b2640e-d5a1-997a-4ac4-a0196c02c58e" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
                     <children>
-                        <node id="Bounds">
-                            <children>
-                                <node id="Bound">
-                                    <attribute id="Height" type="float" value="0.418184" />
-                                    <attribute id="Max" type="fvec3" value="0.11757187 0.44378707 0.13110118" />
-                                    <attribute id="Min" type="fvec3" value="-0.11757187 -0.0017196834 -0.13110106" />
-                                    <attribute id="Radius" type="float" value="0.114147" />
-                                    <attribute id="Shape" type="uint8" value="1" />
-                                    <attribute id="Type" type="uint8" value="0" />
-                                </node>
-                                <node id="Bound">
-                                    <attribute id="Height" type="float" value="0.418184" />
-                                    <attribute id="Max" type="fvec3" value="0.11757187 0.44378707 0.13110118" />
-                                    <attribute id="Min" type="fvec3" value="-0.11757187 -0.0017196834 -0.13110106" />
-                                    <attribute id="Radius" type="float" value="0.114147" />
-                                    <attribute id="Shape" type="uint8" value="1" />
-                                    <attribute id="Type" type="uint8" value="1" />
-                                </node>
-                                <node id="Bound">
-                                    <attribute id="Height" type="float" value="0.418184" />
-                                    <attribute id="Max" type="fvec3" value="0.11757187 0.44378707 0.13110118" />
-                                    <attribute id="Min" type="fvec3" value="-0.11757187 -0.0017196834 -0.13110106" />
-                                    <attribute id="Radius" type="float" value="0.114147" />
-                                    <attribute id="Shape" type="uint8" value="1" />
-                                    <attribute id="Type" type="uint8" value="2" />
-                                </node>
-                            </children>
-                        </node>
                         <node id="Tags">
                             <children>
                                 <node id="Tag">
@@ -211,52 +270,22 @@
                     </children>
                 </node>
                 <node id="GameObjects">
-                    <attribute id="CanJoinCombat" type="bool" value="False" />
                     <attribute id="Description" type="TranslatedString" handle="h13c561c3275c442887bd15bb0cb72156d1d6" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="hedd83ddf955d49fc9b574b3112d02dff5g43" version="1" />
                     <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
                     <attribute id="ExamineRotation" type="fvec3" value="-15 0 0" />
-                    <attribute id="Icon" type="FixedString" value="Item_ALCH_Extract_ScryingEye" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_ALCH_Elemental_Fey" />
                     <attribute id="LevelName" type="FixedString" value="" />
                     <attribute id="MapKey" type="FixedString" value="329f1228-81b8-4a74-8328-50d94ed62360" />
                     <attribute id="Name" type="LSString" value="CFT_ALCH_Elemental_Fey" />
                     <attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
-                    <attribute id="PhysicsTemplate" type="FixedString" value="f4b30bea-6bcc-a30b-5156-b74a49eadba8" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="b52cfe53-bf1f-664d-b058-b47f5014b08f" />
                     <attribute id="Stats" type="FixedString" value="CFT_ALCH_Elemental_Fey" />
-                    <attribute id="Tooltip" type="uint8" value="2" />
                     <attribute id="Type" type="FixedString" value="item" />
-                    <attribute id="UseSound" type="FixedString" value="34b720c0-303a-ef4c-32a0-7fdb8f1c3c22" />
-                    <attribute id="VisualTemplate" type="FixedString" value="40a6549f-f5a0-9682-2a12-eacbdf3c7d2f" />
+                    <attribute id="VisualTemplate" type="FixedString" value="b9b2640e-d5a1-997a-4ac4-a0196c02c58e" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209029" />
                     <children>
-                        <node id="Bounds">
-                            <children>
-                                <node id="Bound">
-                                    <attribute id="Height" type="float" value="0.218319" />
-                                    <attribute id="Max" type="fvec3" value="0.12083013 0.19378208 0.12083016" />
-                                    <attribute id="Min" type="fvec3" value="-0.12083013 -1.4901161E-08 -0.120830104" />
-                                    <attribute id="Radius" type="float" value="0.0767232" />
-                                    <attribute id="Shape" type="uint8" value="1" />
-                                    <attribute id="Type" type="uint8" value="0" />
-                                </node>
-                                <node id="Bound">
-                                    <attribute id="Height" type="float" value="0.218319" />
-                                    <attribute id="Max" type="fvec3" value="0.12083013 0.19378208 0.12083016" />
-                                    <attribute id="Min" type="fvec3" value="-0.12083013 -1.4901161E-08 -0.120830104" />
-                                    <attribute id="Radius" type="float" value="0.0767232" />
-                                    <attribute id="Shape" type="uint8" value="1" />
-                                    <attribute id="Type" type="uint8" value="1" />
-                                </node>
-                                <node id="Bound">
-                                    <attribute id="Height" type="float" value="0.218319" />
-                                    <attribute id="Max" type="fvec3" value="0.12083013 0.19378208 0.12083016" />
-                                    <attribute id="Min" type="fvec3" value="-0.12083013 -1.4901161E-08 -0.120830104" />
-                                    <attribute id="Radius" type="float" value="0.0767232" />
-                                    <attribute id="Shape" type="uint8" value="1" />
-                                    <attribute id="Type" type="uint8" value="2" />
-                                </node>
-                            </children>
-                        </node>
                         <node id="Tags">
                             <children>
                                 <node id="Tag">
@@ -270,22 +299,20 @@
                     </children>
                 </node>
                 <node id="GameObjects">
-                    <attribute id="CanJoinCombat" type="bool" value="False" />
                     <attribute id="Description" type="TranslatedString" handle="hb7d2b10193f942f897804c80839692f4c429" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="hf861c3426ea548b19bb6e07b73ee13738743" version="1" />
                     <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
-                    <attribute id="ExamineRotation" type="fvec3" value="-10 0 0" />
-                    <attribute id="Icon" type="FixedString" value="Item_alch_extract_fire_2" />
+                    <attribute id="ExamineRotation" type="fvec3" value="-15 0 0" />
+                    <attribute id="Icon" type="FixedString" value="Item_ALCH_Extract_MyconidSpore_Haste" />
                     <attribute id="LevelName" type="FixedString" value="" />
                     <attribute id="MapKey" type="FixedString" value="72a7d4dc-1aae-4531-9d8c-b6dbeb6d3f80" />
                     <attribute id="Name" type="LSString" value="CFT_ALCH_Elemental_Fire" />
                     <attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
-                    <attribute id="PhysicsTemplate" type="FixedString" value="385ad46e-6df7-0538-f510-dd7d16900c71" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="b52cfe53-bf1f-664d-b058-b47f5014b08f" />
                     <attribute id="Stats" type="FixedString" value="CFT_ALCH_Elemental_Fire" />
-                    <attribute id="Tooltip" type="uint8" value="2" />
                     <attribute id="Type" type="FixedString" value="item" />
-                    <attribute id="VisualTemplate" type="FixedString" value="3c9501bc-7ad2-5035-e829-c5585b24f90e" />
-                    <attribute id="WalkThrough" type="bool" value="False" />
+                    <attribute id="VisualTemplate" type="FixedString" value="b9b2640e-d5a1-997a-4ac4-a0196c02c58e" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
                     <children>
                         <node id="Bounds">
@@ -329,25 +356,20 @@
                     </children>
                 </node>
                 <node id="GameObjects">
-                    <attribute id="CanJoinCombat" type="bool" value="False" />
                     <attribute id="Description" type="TranslatedString" handle="hdb4aac12e80f4e29a8378b87aef76f145f97" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="h8201c30ff2c443f0a0fc5007f9642199853g" version="1" />
                     <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
-                    <attribute id="DropSound" type="FixedString" value="2953d61b-cc69-557e-5c5e-2d626fab3d4c" />
                     <attribute id="ExamineRotation" type="fvec3" value="-15 0 0" />
-                    <attribute id="Icon" type="FixedString" value="Item_ALCH_Extract_BlackOleander" />
-                    <attribute id="ImpactSound" type="FixedString" value="7b228d89-caf8-a73b-ca8c-f0f8c50f7c15" />
-                    <attribute id="InventoryMoveSound" type="FixedString" value="2953d61b-cc69-557e-5c5e-2d626fab3d4c" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_ALCH_Elemental_Shadow" />
                     <attribute id="LevelName" type="FixedString" value="" />
                     <attribute id="MapKey" type="FixedString" value="ec284501-df29-4553-93ab-8b7a93421fd9" />
                     <attribute id="Name" type="LSString" value="CFT_ALCH_Elemental_Shadow" />
                     <attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
-                    <attribute id="PhysicsTemplate" type="FixedString" value="e050e1b0-2b06-78a0-9b97-fd074e4a1089" />
-                    <attribute id="PickupSound" type="FixedString" value="893cc357-d704-ab86-1776-d0c80b4ba4fb" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="b52cfe53-bf1f-664d-b058-b47f5014b08f" />
                     <attribute id="Stats" type="FixedString" value="CFT_ALCH_Elemental_Shadow" />
-                    <attribute id="Tooltip" type="uint8" value="2" />
                     <attribute id="Type" type="FixedString" value="item" />
-                    <attribute id="VisualTemplate" type="FixedString" value="81a6dd81-a47b-c58d-64ed-83de685ed973" />
+                    <attribute id="VisualTemplate" type="FixedString" value="b9b2640e-d5a1-997a-4ac4-a0196c02c58e" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209029" />
                     <children>
                         <node id="Bounds">
@@ -391,21 +413,20 @@
                     </children>
                 </node>
                 <node id="GameObjects">
-                    <attribute id="CanJoinCombat" type="bool" value="False" />
                     <attribute id="Description" type="TranslatedString" handle="h691e78b5be374c409e79c3e56e46535c6f0d" version="1" />
                     <attribute id="DisplayName" type="TranslatedString" handle="hbf30ff83bc0a4c76b553ee901a5f15aab338" version="1" />
                     <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
                     <attribute id="ExamineRotation" type="fvec3" value="-15 0 0" />
-                    <attribute id="Icon" type="FixedString" value="Item_alch_extract_water_4" />
+                    <attribute id="Icon" type="FixedString" value="Item_ALCH_Extract_IceMephitEar_2" />
                     <attribute id="LevelName" type="FixedString" value="" />
                     <attribute id="MapKey" type="FixedString" value="434c2bea-1e0b-4e69-b0cd-45442c353fe5" />
                     <attribute id="Name" type="LSString" value="CFT_ALCH_Elemental_Water" />
                     <attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
-                    <attribute id="PhysicsTemplate" type="FixedString" value="426ee276-e4ce-4a60-c315-a55b8485f558" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="b52cfe53-bf1f-664d-b058-b47f5014b08f" />
                     <attribute id="Stats" type="FixedString" value="CFT_ALCH_Elemental_Water" />
-                    <attribute id="Tooltip" type="uint8" value="2" />
                     <attribute id="Type" type="FixedString" value="item" />
-                    <attribute id="VisualTemplate" type="FixedString" value="e72159f5-e66c-e1b7-b709-2e233b24111b" />
+                    <attribute id="VisualTemplate" type="FixedString" value="b9b2640e-d5a1-997a-4ac4-a0196c02c58e" />
+                    <attribute id="maxStackAmount" type="int32" value="100" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
                     <children>
                         <node id="Bounds">
@@ -501,16 +522,16 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="h05f91580526349dc99eb7c11eb8d805874b3" version="1" />
                     <attribute id="Description" type="TranslatedString" handle="he3a32aa837734d3ebffbbe5a32467dd1020d" version="1" />
                     <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
-                    <attribute id="Icon" type="FixedString" value="Icon_CFT_Leather" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_LW_Leather" />
                     <attribute id="LevelName" type="FixedString" value="" />
                     <attribute id="MapKey" type="FixedString" value="43da950b-aad9-487e-87f0-ee96fe1d166d" />
                     <attribute id="Name" type="LSString" value="CFT_LW_Leather" />
                     <attribute id="ParentTemplateId" type="FixedString" value="41e87646-aec7-4411-9e2b-14a17d3ffe31" />
                     <attribute id="ReadinessFlags" type="uint32" value="128" />
-                    <attribute id="Scale" type="float" value="0.65" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="6c2e131b-333f-0346-c3f5-f5fe21c958c9" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="d9e99c01-7ace-056f-f539-c03b89acd86d" /> 
                     <attribute id="Stats" type="FixedString" value="CFT_LW_Leather" />
                     <attribute id="Type" type="FixedString" value="item" />
-                    <!-- <attribute id="VisualTemplate" type="FixedString" value="" /> -->
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855929" /> 
                     <children>
                         <node id="Tags">
@@ -526,16 +547,343 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="he0f90781ef6348f391559390f40d89829116" version="1" />
                     <attribute id="Description" type="TranslatedString" handle="h415cd0ee983a41b194ab27c75564059acc6b" version="1" />
                     <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
-                    <attribute id="Icon" type="FixedString" value="Icon_CFT_Leather_Scrap" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_LW_Leather_Scrap" />
                     <attribute id="LevelName" type="FixedString" value="" />
                     <attribute id="MapKey" type="FixedString" value="49cb6e2a-8cad-4d5a-868c-d53a45c1b465" />
                     <attribute id="Name" type="LSString" value="CFT_LW_Scrap_Leather" />
-                    <attribute id="ParentTemplateId" type="FixedString" value="5d6162a4-f592-ae73-67cc-8b392e09ebe0" />
-                    <attribute id="Scale" type="float" value="0.5" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="41e87646-aec7-4411-9e2b-14a17d3ffe31" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="6c2e131b-333f-0346-c3f5-f5fe21c958c9" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="d9e99c01-7ace-056f-f539-c03b89acd86d" /> 
                     <attribute id="Stats" type="FixedString" value="CFT_LW_Scrap_Leather" />
                     <attribute id="Type" type="FixedString" value="item" />
-                    <!-- <attribute id="VisualTemplate" type="FixedString" value="" /> -->
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <!--###################################   Inscription   ###################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2f05121e47b948d28322006dcc29f0eba6g8" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h57a8e8742dc347bdab06f17d3b1cfb414d35" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Scroll_Parchment_A_Open" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="23abfdc0-04c6-47b5-99e3-7992a662e353" />
+                    <attribute id="Name" type="LSString" value="CFT_SCRIBE_Blank_Parchment" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="e028bac5-f393-4d6a-9873-670241d721ac" />
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="c3b3a867-8015-9b0e-8a8e-17cbfeeef6a6" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="12d93f5f-6574-c84d-5b49-9e8244c8aef2" /> 
+                    <attribute id="Stats" type="FixedString" value="CFT_SCRIBE_Blank_Parchment" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h995f66f84ef742658ee4a6d9b85560e3eb5d" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h8b97ae34bff5449fb7d6aaea1540a164dg66" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Abjuration" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="b3b6a04b-e515-46d0-a967-ef9ca25dd414" />
+                    <attribute id="Name" type="LSString" value="CFT_SCRIBE_Ink_Abjuration" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="98f13cd0-0069-466f-bb6e-5b8964b46e66" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="053c548e-67ff-1aeb-ec26-7060195d3f2c" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="0adb9e3a-c865-1cf7-aad1-6fbf9261ccbe" /> 
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_SCRIBE_Ink_Abjuration" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h780e0e3e6bf94c3aa11bc78be7f1f4f4a5bg" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="habae5410e9354c9abc7643d798c117db3d30" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Conjuration" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="213a6669-407d-4fae-99d7-7054dbb2d864" />
+                    <attribute id="Name" type="LSString" value="CFT_SCRIBE_Ink_Conjuration" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="98f13cd0-0069-466f-bb6e-5b8964b46e66" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="053c548e-67ff-1aeb-ec26-7060195d3f2c" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="0adb9e3a-c865-1cf7-aad1-6fbf9261ccbe" /> 
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_SCRIBE_Ink_Conjuration" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5fbe415400b941f096cab0477b8ae8a05486" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h8974432f823042f8a978aae5d1fc3b62df6f" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Divination" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="a42e29d5-1cc2-4c1a-bea8-dca45388fa40" />
+                    <attribute id="Name" type="LSString" value="CFT_SCRIBE_Ink_Divination" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="98f13cd0-0069-466f-bb6e-5b8964b46e66" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="053c548e-67ff-1aeb-ec26-7060195d3f2c" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="0adb9e3a-c865-1cf7-aad1-6fbf9261ccbe" /> 
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_SCRIBE_Ink_Divination" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hca2b6f4c477c425aa7acc25066d9559355c1" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hc31c56c2450846a2ae45560656e9b040dg67" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Enchantment" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="5b4d37ff-7397-41cb-91c0-7da8c0a63d4f" />
+                    <attribute id="Name" type="LSString" value="CFT_SCRIBE_Ink_Enchantment" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="98f13cd0-0069-466f-bb6e-5b8964b46e66" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="053c548e-67ff-1aeb-ec26-7060195d3f2c" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="0adb9e3a-c865-1cf7-aad1-6fbf9261ccbe" /> 
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_SCRIBE_Ink_Enchantment" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h41d6fbe9400048b2ac889c2e8b82eb535526" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hed07d76608bd44488714c94627f027425b49" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Evocation" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="6601fc91-9020-45bf-a26a-413fa497180c" />
+                    <attribute id="Name" type="LSString" value="CFT_SCRIBE_Ink_Evocation" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="98f13cd0-0069-466f-bb6e-5b8964b46e66" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="053c548e-67ff-1aeb-ec26-7060195d3f2c" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="0adb9e3a-c865-1cf7-aad1-6fbf9261ccbe" /> 
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_SCRIBE_Ink_Evocation" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h144d76b77cba486f867cc986718445c5ed00" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h40f29e11489f4ed5817c0d0e2e5d208bddad" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Illusion" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="e87726f8-46e9-4a43-a4f7-9c03d3da78d9" />
+                    <attribute id="Name" type="LSString" value="CFT_SCRIBE_Ink_Illusion" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="98f13cd0-0069-466f-bb6e-5b8964b46e66" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="053c548e-67ff-1aeb-ec26-7060195d3f2c" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="0adb9e3a-c865-1cf7-aad1-6fbf9261ccbe" /> 
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_SCRIBE_Ink_Illusion" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="had6d40e510da48478d6557a19bc0b9053696" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h39ed6de4ac6b4fee953a594b6fc869c25275" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Necromancy" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="5366edda-e7e7-4766-8a91-ad34d1060743" />
+                    <attribute id="Name" type="LSString" value="CFT_SCRIBE_Ink_Necromancy" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="98f13cd0-0069-466f-bb6e-5b8964b46e66" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="053c548e-67ff-1aeb-ec26-7060195d3f2c" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="0adb9e3a-c865-1cf7-aad1-6fbf9261ccbe" /> 
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_SCRIBE_Ink_Necromancy" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h197b4364b10e4f74a032daf4283a2d80271b" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hdeee3c92de97408cbf9cc3c4a2cb465b7982" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_SCRIBE_Ink_Transmutation" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="947969f3-ee9b-468a-af3a-32f5050eb432" />
+                    <attribute id="Name" type="LSString" value="CFT_SCRIBE_Ink_Transmutation" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="98f13cd0-0069-466f-bb6e-5b8964b46e66" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="053c548e-67ff-1aeb-ec26-7060195d3f2c" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="0adb9e3a-c865-1cf7-aad1-6fbf9261ccbe" /> 
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_SCRIBE_Ink_Transmutation" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <!--###################################   Enchanting   ###################################-->
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4721d6b3db6345dba31c4bf0e6d158b6e248" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hd0928f361f754cf88a7b2c22a2d16de3a6b4" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_alch_extract_earth_5" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="6dbc4b4d-abf0-4fb8-b0d7-f635cb9917b2" />
+                    <attribute id="Name" type="LSString" value="CFT_ENCH_Mundane_Essence" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="ba7629e5-e289-8d20-f805-b6665e1353f6" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="76826c52-6f28-7046-c2ac-3ea3350054ee" /> 
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_ENCH_Mundane_Essence" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb7665e8e647946d19a98e0f11273de4802bd" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h8d45149f4185429f8d632463665a1bcd654g" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_alch_extract_earth_4" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="c48924f4-83f0-4c25-8fe7-f780ab2050df" />
+                    <attribute id="Name" type="LSString" value="CFT_ENCH_Magic_Essence" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="ba7629e5-e289-8d20-f805-b6665e1353f6" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="f60778ec-805e-1984-c24e-af1e0dcfdb8c" /> 
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_ENCH_Magic_Essence" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h47e9404692b640aa95bb7014d98502e3b4ca" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h61d711a00e864fe58ce10e3d41f0bc3c5b04" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_alch_extract_earth_1" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="27915196-e29a-46d0-9b0a-3c63d45b4f3f" />
+                    <attribute id="Name" type="LSString" value="CFT_ENCH_Magic_Essence_Greater" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="ba7629e5-e289-8d20-f805-b6665e1353f6" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="37bbdfed-56e4-e9b3-0996-c705b32a4946" /> 
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_ENCH_Magic_Essence_Greater" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9fb5370c5dd043cb92ae07ad6ba48da5bd83" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hce9856092fd54a5da8bfc8bab7088ea33cgg" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Item_alch_extract_earth_6" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="a0b83ae3-e798-43b2-a685-c68b6891e24a" />
+                    <attribute id="Name" type="LSString" value="CFT_ENCH_Magic_Essence_Superior" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="c9e45e5a-f089-480b-ab3a-7f5f76dccc3b" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="ba7629e5-e289-8d20-f805-b6665e1353f6" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="5340f081-3a6b-6783-ea45-aea184d162a1" /> 
+                    <attribute id="ReadinessFlags" type="uint32" value="128" />
+                    <attribute id="Stats" type="FixedString" value="CFT_ENCH_Magic_Essence_Superior" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
                     <children>
                         <node id="Tags">
                             <children>
@@ -551,16 +899,16 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="h6e33a69c8fc645feb27b9469b907a273adcg" version="1" />
                     <attribute id="Description" type="TranslatedString" handle="h2789bf2f8fe34f5e9f0896048dc91a9a0b2c" version="1" />
                     <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
-                    <attribute id="Icon" type="FixedString" value="Icon_CFT_Thread" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_COMP_Thread" />
                     <attribute id="LevelName" type="FixedString" value="" />
                     <attribute id="MapKey" type="FixedString" value="2fd69204-a15b-4f26-b027-5d384c3a3e59" />
                     <attribute id="Name" type="LSString" value="CFT_COMP_Thread" />
                     <attribute id="ParentTemplateId" type="FixedString" value="41e87646-aec7-4411-9e2b-14a17d3ffe31" />
                     <attribute id="ReadinessFlags" type="uint32" value="128" />
-                    <attribute id="Scale" type="float" value="0.65" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="6c2e131b-333f-0346-c3f5-f5fe21c958c9" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="d9e99c01-7ace-056f-f539-c03b89acd86d" /> 
                     <attribute id="Stats" type="FixedString" value="CFT_COMP_Thread" />
                     <attribute id="Type" type="FixedString" value="item" />
-                    <!-- <attribute id="VisualTemplate" type="FixedString" value="" /> -->
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115188075855929" /> 
                     <children>
                         <node id="Tags">
@@ -576,15 +924,125 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="h2cc0fdc4235848cf8a4c2c4d586c6dab3a1g" version="1" />
                     <attribute id="Description" type="TranslatedString" handle="h6292cfbc9bc04786bcf2b37576db3ea5131b" version="1" />
                     <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
-                    <attribute id="Icon" type="FixedString" value="Icon_CFT_Twine" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_COMP_Twine" />
                     <attribute id="LevelName" type="FixedString" value="" />
                     <attribute id="MapKey" type="FixedString" value="d57923c7-10a5-4810-bcf5-ca2f425f9d71" />
                     <attribute id="Name" type="LSString" value="CFT_COMP_Twine" />
-                    <attribute id="ParentTemplateId" type="FixedString" value="5d6162a4-f592-ae73-67cc-8b392e09ebe0" />
-                    <attribute id="Scale" type="float" value="0.5" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="41e87646-aec7-4411-9e2b-14a17d3ffe31" />
+                    <attribute id="PhysicsTemplate" type="FixedString" value="6c2e131b-333f-0346-c3f5-f5fe21c958c9" /> 
+                    <attribute id="VisualTemplate" type="FixedString" value="d9e99c01-7ace-056f-f539-c03b89acd86d" /> 
                     <attribute id="Stats" type="FixedString" value="CFT_COMP_Twine" />
                     <attribute id="Type" type="FixedString" value="item" />
-                    <!-- <attribute id="VisualTemplate" type="FixedString" value="" /> -->
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2d99a158341c4e8c89307a844e58540e8b8a" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h45dbfebd4a574ce085f3929ece1845c4eeed" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_COMP_Copper_Ignot" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="e75d78bb-4d9a-44aa-b11c-b52e0f44a386" />
+                    <attribute id="Name" type="LSString" value="CFT_COMP_Copper_Ignot" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="5b386575-5836-40cd-8548-e5c27fd105a1" />
+                    <attribute id="Stats" type="FixedString" value="CFT_COMP_Copper_Ignot" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h78a67541c07f4bdfbbf98387e01893a7e899" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h474b20d383344f148c3cf040062d08ad34a8" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_COMP_Copper_Chunk" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="b05ddaa3-4083-4d17-b5af-62640f50f581" />
+                    <attribute id="Name" type="LSString" value="CFT_COMP_Copper_Chunk" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="f65292f7-a930-48a3-a803-914da4781056" />
+                    <attribute id="Stats" type="FixedString" value="CFT_COMP_Copper_Chunk" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hf17811f03c7a407886604cb6a8c9a0dc160e" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="ha870fa511d144076b0fc9b128cab16a958gf" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_COMP_Bronze_Chunk" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="0ddc1469-d86d-4a9e-b24f-d7d5ce165a62" />
+                    <attribute id="Name" type="LSString" value="CFT_COMP_Bronze_Chunk" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="f65292f7-a930-48a3-a803-914da4781056" />
+                    <attribute id="Stats" type="FixedString" value="CFT_COMP_Bronze_Chunk" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h57b57153304245049499fa209f8e28be3897" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hdb558a90a42a4152ae5e9ee16743cfbdbcef" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_COMP_Silver_Chunk" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="482e964b-c3a4-4e3c-9b69-6a952aa54c19" />
+                    <attribute id="Name" type="LSString" value="CFT_COMP_Silver_Chunk" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="f65292f7-a930-48a3-a803-914da4781056" />
+                    <attribute id="Stats" type="FixedString" value="CFT_COMP_Silver_Chunk" />
+                    <attribute id="Type" type="FixedString" value="item" />
+                    <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+                    <children>
+                        <node id="Tags">
+                            <children>
+                                <node id="Tag">
+                                    <attribute id="Object" type="guid" value="fc1e8a86-6601-45db-b2f1-6138baf1f54b" />
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="GameObjects">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6643b5f75c04471b94000c77e5e153cd3fbd" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h8cfdab392ffc4b699de5848881b0343c14f0" version="1" />
+                    <attribute id="TechnicalDescription" type="TranslatedString" handle="hb166f64ee15240d6b4b762d8c9dbed032a3g" version="1" />
+                    <attribute id="Icon" type="FixedString" value="Icon_CFT_COMP_Gold_Chunk" />
+                    <attribute id="LevelName" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="ae64e4b4-983d-4b17-abee-c092b70b49e7" />
+                    <attribute id="Name" type="LSString" value="CFT_COMP_Gold_Chunk" />
+                    <attribute id="ParentTemplateId" type="FixedString" value="f65292f7-a930-48a3-a803-914da4781056" />
+                    <attribute id="Stats" type="FixedString" value="CFT_COMP_Gold_Chunk" />
+                    <attribute id="Type" type="FixedString" value="item" />
                     <attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
                     <children>
                         <node id="Tags">

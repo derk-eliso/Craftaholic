@@ -34,7 +34,7 @@
     <content contentuid="he398c24b7e154480a273b0d39add219a8d1c" version="1">Tremair</content>
     <content contentuid="h3f4b7f8c8e8b4d3abeee7240e9088a984846" version="1">These small gemstones were sewn or woven into gowns that debutantes wore at social occasions, signifying eligibility for marriage.</content>
     <content contentuid="h4fd76eaa9acd4afaabd7cac8176740dd63f5" version="1">Emerald</content>
-    <content contentuid="heea16c9892124a7ca126ba7c109664ca128e" version="1">Prized for its deep green hue, symbolizes nature's beauty and is sought after for its rarity and elegance.</content>
+    <content contentuid="heea16c9892124a7ca126ba7c109664ca128e" version="1">Sought after for their rich green hue, emeralds are prized for their graceful allure, serving as a symbol of nature's exquisite beauty.</content>
     <content contentuid="hff2bd86b48de4606a08b46fa73a9c1e0f604" version="1">Craftholic Recipe</content>
     <content contentuid="h076b4996a6c04b2fb7818ee77ce7a4f5edab" version="1">Tag for recipes added by Craftaholic</content>
     <content contentuid="h71356346135b49dda79dc894eed1a651d6d7" version="1">Kunzite</content>
@@ -46,7 +46,7 @@
     <content contentuid="ha51ae7fec707473fba3dd65bafc3a5c6fg35" version="1">Smoky Quartz</content>
     <content contentuid="hec67b6302f4443e3897ca2738d29f1bf735f" version="1">With its misty translucence and warm brown tones, this gem evokes ancient mysteries and invites contemplation.</content>
     <content contentuid="h081221cd5cd4462eaf2c13d6fd832d94194d" version="1">Samarskite</content>
-    <content contentuid="hc6793a75cfa642feb02f510c81c7436fb635" version="1">A semi-precious gem used for mourning jewelry or to adorn black ceremonial dress.</content>
+    <content contentuid="hc6793a75cfa642feb02f510c81c7436fb635" version="1">A semi-precious gem used for mourning jewelry or to adorn black ceremonial dresses.</content>
     <content contentuid="h72f9a9afffe741fcbb02d2c3337ee6f9bdc0" version="1">Lapiz Lazuli</content>
     <content contentuid="h2e9cfa80c4024443b8b67dbdc3b682f0d0ef" version="1">A deep blue gem that embodies the allure of the night sky, captivating with its celestial beauty and rich history.</content>
     <content contentuid="hd3862cfdbc544f7283c12b23c692133fe1g4" version="1">Cat's Eye</content>
@@ -98,4 +98,43 @@
     <content contentuid="h2789bf2f8fe34f5e9f0896048dc91a9a0b2c" version="1">A neatly wound reel of fine thread.</content>
     <content contentuid="h2cc0fdc4235848cf8a4c2c4d586c6dab3a1g" version="1">Twine</content>
     <content contentuid="h6292cfbc9bc04786bcf2b37576db3ea5131b" version="1">Thin and sturdy strands intertwined.</content>
+    <content contentuid="h2f05121e47b948d28322006dcc29f0eba6g8" version="1">Blank Parchment</content>
+    <content contentuid="h57a8e8742dc347bdab06f17d3b1cfb414d35" version="1">A slightly blemished sheet of parchment.</content>
+    <content contentuid="hcbbe565ae9b44a3480a5ce6130eb0303dfd0" version="1">A little-known fact, crushed lapis lazuli makes for a great &lt;b&gt;enchanting&lt;/b&gt; ink. &lt;br&gt;-Craftaholic Inc.</content>
+    <content contentuid="h995f66f84ef742658ee4a6d9b85560e3eb5d" version="1">Abjuration Ink</content>
+    <content contentuid="h8b97ae34bff5449fb7d6aaea1540a164dg66" version="1">Specialty ink, meant to be used to create Abjuration scrolls.</content>
+    <content contentuid="h780e0e3e6bf94c3aa11bc78be7f1f4f4a5bg" version="1">Conjuration Ink</content>
+    <content contentuid="habae5410e9354c9abc7643d798c117db3d30" version="1">Specialty ink, meant to be used to create Conjuration scrolls.</content>
+    <content contentuid="h5fbe415400b941f096cab0477b8ae8a05486" version="1">Divination Ink</content>
+    <content contentuid="h8974432f823042f8a978aae5d1fc3b62df6f" version="1">Specialty ink, meant to be used to create Divination scrolls.</content>
+    <content contentuid="hca2b6f4c477c425aa7acc25066d9559355c1" version="1">Enchanting Ink</content>
+    <content contentuid="hc31c56c2450846a2ae45560656e9b040dg67" version="1">Specialty ink, meant to be used to create Enchanting scrolls.</content>
+    <content contentuid="h41d6fbe9400048b2ac889c2e8b82eb535526" version="1">Evocation Ink</content>
+    <content contentuid="hed07d76608bd44488714c94627f027425b49" version="1">Specialty ink, meant to be used to create Evocation scrolls.</content>
+    <content contentuid="h144d76b77cba486f867cc986718445c5ed00" version="1">Illusion Ink</content>
+    <content contentuid="h40f29e11489f4ed5817c0d0e2e5d208bddad" version="1">Specialty ink, meant to be used to create Illusion scrolls.</content>
+    <content contentuid="had6d40e510da48478d6557a19bc0b9053696" version="1">Necromancy Ink</content>
+    <content contentuid="h39ed6de4ac6b4fee953a594b6fc869c25275" version="1">Specialty ink, meant to be used to create Necromancy scrolls.</content>
+    <content contentuid="h197b4364b10e4f74a032daf4283a2d80271b" version="1">Transmuation Ink</content>
+    <content contentuid="hdeee3c92de97408cbf9cc3c4a2cb465b7982" version="1">Specialty ink, meant to be used to create Transmuation scrolls.</content>
+    <content contentuid="h4721d6b3db6345dba31c4bf0e6d158b6e248" version="1">Mundane Essence</content>
+    <content contentuid="hd0928f361f754cf88a7b2c22a2d16de3a6b4" version="1">A faint ethereal energy, possessing latent magical potential.</content>
+    <content contentuid="hb7665e8e647946d19a98e0f11273de4802bd" version="1">Lesser Magic Essence</content>
+    <content contentuid="h8d45149f4185429f8d632463665a1bcd654g" version="1">An infusion of energy, pulsating with arcane power.</content>
+    <content contentuid="h47e9404692b640aa95bb7014d98502e3b4ca" version="1">Greater Magic Essence</content>
+    <content contentuid="h61d711a00e864fe58ce10e3d41f0bc3c5b04" version="1">A potent and vibrant energy, teeming with formidable arcane might.</content>
+    <content contentuid="h9fb5370c5dd043cb92ae07ad6ba48da5bd83" version="1">Superior Magic Essence</content>
+    <content contentuid="hce9856092fd54a5da8bfc8bab7088ea33cgg" version="1">An awe-inspiring energy of unparalleled potency, brimming with raw power.</content>
+    <content contentuid="h2d99a158341c4e8c89307a844e58540e8b8a" version="1">Copper Ingot</content>
+    <content contentuid="h45dbfebd4a574ce085f3929ece1845c4eeed" version="1">A small but heavy bar of untempered copper, manufactured at the High House of Gond</content>
+    <content contentuid="h78a67541c07f4bdfbbf98387e01893a7e899" version="1">Chunk of Copper</content>
+    <content contentuid="h474b20d383344f148c3cf040062d08ad34a8" version="1">A small chunk of untempered copper.</content>
+    <content contentuid="hf17811f03c7a407886604cb6a8c9a0dc160e" version="1">Chunk of Bronze</content>
+    <content contentuid="ha870fa511d144076b0fc9b128cab16a958gf" version="1">A small chunk of untempered bronze.</content>
+    <content contentuid="h57b57153304245049499fa209f8e28be3897" version="1">Chunk of Silver</content>
+    <content contentuid="hdb558a90a42a4152ae5e9ee16743cfbdbcef" version="1">A small chunk of untempered silver.</content>
+    <content contentuid="h6643b5f75c04471b94000c77e5e153cd3fbd" version="1">Chunk of Gold</content>
+    <content contentuid="h8cfdab392ffc4b699de5848881b0343c14f0" version="1">A small chunk of untempered gold.</content>
+    <content contentuid="hc28d4e27c8c6466bb1593961a4f65f06ggba" version="1">Rally Horn</content>
+    <content contentuid="hcdb65bce80a74deba756188c426f5f6ab13c" version="1">Blowing this horn produces a reverberating, boasting wail to rally your allies.</content>
   </contentList>

@@ -12,18 +12,85 @@ new subtable "1,1"
 object category "I_CFT_CONT_GemPouch",1,0,0,0,0,0,0,0
 new subtable "1,1"
 object category "I_CFT_CONT_ComponentPouch",1,0,0,0,0,0,0,0
-new subtable "-1"
+new subtable "10,1"
+object category "I_CFT_ALCH_Empty_Potion_Bottle",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_ALCH_Elemental_Earth",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_ALCH_Elemental_Air",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_ALCH_Elemental_Fey",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_ALCH_Elemental_Fire",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_ALCH_Elemental_Shadow",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_ALCH_Elemental_Water",1,0,0,0,0,0,0,0
+new subtable "10,1"
 object category "I_CFT_WEAVE_Linen_Cloth",1,0,0,0,0,0,0,0
-new subtable "-1"
+new subtable "10,1"
 object category "I_CFT_WEAVE_Scrap_Linen",1,0,0,0,0,0,0,0
-new subtable "-1"
+new subtable "10,1"
 object category "I_CFT_LW_Leather",1,0,0,0,0,0,0,0
-new subtable "-1"
+new subtable "10,1"
 object category "I_CFT_LW_Scrap_Leather",1,0,0,0,0,0,0,0
-new subtable "-1"
+new subtable "10,1"
 object category "I_CFT_COMP_Twine",1,0,0,0,0,0,0,0
-new subtable "-1"
+new subtable "10,1"
 object category "I_CFT_COMP_Thread",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_SCRIBE_Blank_Parchment",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_SCRIBE_Ink_Abjuration",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_SCRIBE_Ink_Conjuration",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_SCRIBE_Ink_Divination",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_SCRIBE_Ink_Enchantment",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_SCRIBE_Ink_Evocation",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_SCRIBE_Ink_Illusion",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_SCRIBE_Ink_Necromancy",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_SCRIBE_Ink_Transmutation",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_ENCH_Mundane_Essence",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_ENCH_Magic_Essence",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_ENCH_Magic_Essence_Greater",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_ENCH_Magic_Essence_Superior",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_COMP_Copper_Ignot",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_OBJ_Metalbar_Bronze",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_OBJ_Metalbar_Silver",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_OBJ_Metalbar_Gold",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_COMP_Copper_Chunk",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_COMP_Bronze_Chunk",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_COMP_Silver_Chunk",1,0,0,0,0,0,0,0
+new subtable "10,1"
+object category "I_CFT_COMP_Gold_Chunk",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_CFT_INSTRUMENT_Horn",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_UNI_LOW_FalataericCliLyre",1,0,0,0,0,0,0,0
+
+
+
+
+
+
+
 
 
 
